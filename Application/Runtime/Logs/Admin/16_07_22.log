@@ -1,0 +1,72 @@
+[ 2016-07-22T10:08:20+08:00 ] ::1 /yuwan/admin.php?m=Admin&c=Demo&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001951s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000377s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000722s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.172362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.172498s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000903s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001039s ]
+
+[ 2016-07-22T14:32:51+08:00 ] ::1 /yuwan/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001022s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003804s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000290s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000749s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032821s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003161s ]
+
+[ 2016-07-22T14:32:58+08:00 ] ::1 /yuwan/admin.php?m=Admin&c=War&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001453s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000336s ]
+NOTIC: [8] Undefined variable: page_title E:\www\yuwan\Application\Runtime\Cache\Admin\231f78acb8881ee6d60479ddac3d04af.php 第 5 行.
+NOTIC: [8] Undefined variable: page_title E:\www\yuwan\Application\Runtime\Cache\Admin\231f78acb8881ee6d60479ddac3d04af.php 第 158 行.
+NOTIC: [8] Undefined variable: page_title E:\www\yuwan\Application\Runtime\Cache\Admin\231f78acb8881ee6d60479ddac3d04af.php 第 161 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029580s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002792s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002886s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003044s ]
+
+[ 2016-07-22T14:33:09+08:00 ] ::1 /yuwan/admin.php?m=Admin&c=User&a=player
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001457s ]
+ERR: 非法操作:player
+

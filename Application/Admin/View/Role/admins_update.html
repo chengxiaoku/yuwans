@@ -1,0 +1,145 @@
+<include file="Public:header"/>
+{$page = 'permission'}
+<include file="Public:menu"/>
+<style type="text/css">
+    .error{
+        color: red;
+    }
+
+</style>
+<div class="content-wrapper">
+    <!--引入表单验证-->
+    <script src="http://static.runoob.com/assets/jquery-validation-1.14.0/dist/jquery.validate.min.js"></script>
+    <include file="Public:breadcrumb"/>
+    <!-- 主体内容 -->
+    <section class="content">
+
+        <div class="row">
+
+            <!-- left column -->
+            <div class="col-md-8">
+                <!-- general form elements -->
+                <div class="box box-primary">
+
+                    <!-- form start -->
+                    <form role="form" id="Myform" action="{:U('Role/admins_update')}" method="post">
+
+                        <div class="box-body padding20">
+                            <div class="form-group ">
+                                <input type="hidden" value="{$data['id']}" name="role_id">
+                                <label for="">用户名<span class="required">*</span></label>
+                                <div>
+                                    <input type="text" placeholder="输入用户名称" name="username" value="{$data['name']}" class="form-control wp50 inline-block">
+                                </div>
+                            </div>
+
+                            <div class="form-group"><!-- has-error-->
+                                <label>密码 <span class="required">*</span></label>
+                                <div>
+                                    <input name="pwd" id="pwd" type="password" placeholder="输入密码 ..."
+                                           class="form-control wp50"
+                                    >
+                                    <em class="help-block">提示：空表示不修改密码</em>
+                                </div>
+                            </div>
+
+                            <div class="form-group"><!-- has-error-->
+                                <label>确认密码 <span class="required">*</span></label>
+                                <div>
+                                    <input name="repassword" type="password" placeholder="再一次确认密码 ..."
+                                           class="form-control wp50"
+                                    >
+                                    <em class="help-block"></em>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="">真实姓名<span class="required">*</span></label>
+                                <input type="text" placeholder="输入姓名" id="" name="name" value="{$data['realname']}" class="form-control wp50" >
+                            </div>
+
+
+                            <div class="form-group">
+                                <label for="">所属角色</label>
+                                <select class="form-control wp50" name="per">
+                                    <?php foreach($sel as $val) :?>
+                                        <?php
+                                            if($val['id'] == $data['role_id']){
+                                        ?>
+                                        <option value="{$val['id']}" selected>{$val['name']}</option>
+                                    <?php
+                                            }else{
+                                    ?>
+                                        <option value="{$val['id']}" >{$val['name']}</option>
+                                    <?php
+                                            }
+                                    ?>
+                                    <!--<option value="0">≡ 请选择会员组 ≡</option>-->
+
+                                    <?php endforeach;?>
+                                </select>
+                            </div>
+
+                        </div><!-- /.box-body -->
+
+                        <div class="box-footer p20 ">
+                            <button class="btn btn-primary w100" type="submit">保存</button>
+                            <a onclick="history.go('-1')" class="btn btn-info w100 ml20" type="submit">返回</a>
+                        </div>
+                    </form>
+                </div><!-- /.box -->
+
+            </div>
+
+        </div>
+
+
+
+    </section><!-- /.content -->
+
+    <!-- /.content  -->
+</div>
+<script type="text/javascript">
+    function deleteData() {
+        if (confirm("确认要删除该条数据？")) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    $('#Myform').validate({
+        rules: {
+            username: {
+                required: true,
+                rangelength:[3,7],
+            },
+
+            name:{
+                required: true,
+                rangelength:[2,7],
+            },
+
+            repassword:{
+                equalTo: "#pwd"
+            }
+        },
+        messages: {
+            username:{
+                required:'用户名不能为空!',
+                rangelength:'用户名在3~7个字符之间',
+            },
+            name:{
+                required:'真实姓名不能为空!',
+                rangelength:'真实姓名个数应该在2~7之间！',
+            }
+            ,
+            repassword:{
+                equalTo: "两次密码要相同!"
+            }
+        },
+        focusInvalid:true,
+    });
+
+</script>
+<include file="Public:footer"/>

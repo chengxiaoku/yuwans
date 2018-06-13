@@ -1,0 +1,103 @@
+<include file="Public:header"/>
+<include file="Public:menu"/>
+<div class="content-wrapper">
+    <include file="Public:breadcrumb"/>
+    <!-- 主体内容 -->
+    <section class="content">
+        <div class="row">
+            <div class="col-md-12 " style="">
+                <div class="box box-solid padding20" style="">
+                    <table class="table table-hover table-noboder">
+                        <tbody>
+                        <tr>
+                            <td width="20%" class="text-right">商品标题：</td>
+                            <td>
+                                {$data.title}
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="20%" class="text-right">兑换人：</td>
+                            <td>
+                                {$data.username}
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="20%" class="text-right">兑换时间：</td>
+                            <td>
+                                {$data.add_time}
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="20%" class="text-right">商品简介：</td>
+                            <td>
+                                {$data.summary}
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="20%" class="text-right">商品详情：</td>
+                            <td>
+                                {$data.details}
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="20%" class="text-right">商品兑换网址：</td>
+                            <td>
+                                {$data.url}
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="20%" class="text-right">商品兑换码 ：</td>
+                            <td>
+                                {$data.cdkey}
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="20%" class="text-right">虚拟币：</td>
+                            <td>
+                                {$data.paymoney}
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="20%" class="text-right">原价：</td>
+                            <td>
+                                {$data.price}
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="20%" class="text-right">商品图片：</td>
+                            <td>
+                                <volist name="img_src" id="img_row">
+                                    <img src="{$img_row}" style="margin-left: 10px; width: 160px; height: 160px;"/>
+                                </volist>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="20%" class="text-right"></td>
+                            <td>
+                                <button class="btn btn-info btn-flat" onclick="javascript:history.go(-1)">返回</button>
+                            </td>
+                        </tr>
+
+
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- /.content  -->
+</div>
+<script type="text/javascript">
+
+</script>
+<include file="Public:footer"/>

@@ -1,0 +1,129 @@
+﻿<include file="Public:header"/>
+<include file="Public:menu"/>
+<div class="content-wrapper">
+    <include file="Public:breadcrumb"/>
+    <!-- 主体内容 -->
+    <section class="content">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="box box-primary">
+                    <div class="box-header">
+                        <div class="btn-group" style="margin-left: 50px;" id="grop">
+                            <!--btn-success-->
+                            <a class="btn" type="button" href="{:U('money/index',array('type'=>'all'))}" >全部</a>
+                            <a class="btn" type="button" href="{:U('money/index',array('type'=>'bonus'))}">奖金</a>
+                            <a class="btn" type="button" href="{:U('money/index',array('type'=>'recharge'))}">充值</a>
+                            <!-- btn-success btn-default-->
+                        </div>
+                        <div class="select pull-right">
+                            <form method="post" action="{:U('Money/index_type')}">
+                                <div class="input-group" style="width:350px; margin-left: 5px;">
+                                    <input type="text" name="sec" class="form-control" value="{$keyword}" placeholder="输入流水号、用户姓名查找">
+                                    <div class="input-group-btn">
+                                        <button class="btn btn-default" id="sel_ok" type="submit"><i class="fa fa-search"></i></button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="box-body">
+                        <table class="table table-hover">
+                            <tbody>
+                            <tr>
+                                <th width="13%" class="vc-middle">流水号</th>
+                                <th width="10%" class="vc-middle" >用户</th>
+                                <th width="10%" class="vc-middle" >金额</th>
+                                <th width="10%" class="vc-middle" >类型</th>
+                                <th width="20%" class="vc-middle" >时间</th>
+                                <th width="13%" class="vc-middle" >方式</th>
+                                <th width="13%" class="vc-middle" >状态</th>
+                                <th width="10%" style="text-align:center;">管理操作</th>
+                            </tr>
+
+                            <volist name="data" id="row">
+                                <tr>
+                                    <td class="vc-middle">{$row.sn}</td>
+                                    <td class="vc-middle">{$row.username}</td>
+                                    <td class="vc-middle">{$row.money}</td>
+                                    <td class="vc-middle">
+
+                                    <if condition="$row.type eq 'payment'">
+                                        在线支付
+                                    <elseif condition="$row.type eq 'transfer'"/>
+                                        转账
+                                    <elseif condition="$row.type eq 'recharge'"/>
+                                        代理充值
+                                    <elseif condition="$row.type eq 'prize'"/>
+                                        现金
+                                    <elseif condition="$row.type eq 'agent_recharge'"/>
+                                        自己充值
+                                    </if>
+                                    </td>
+                                    <td class="vc-middle">{$row.add_time}</td>
+                                    <td class="vc-middle">
+                                        <if condition="$row.pay_type eq 'alipay'">
+                                            支付宝支付
+                                        <elseif condition="$row.pay_type eq 'wx'"/>
+                                            微信支付
+                                        <elseif condition="$row.pay_type eq 'paymoney'"/>
+                                            现金支付
+                                        </if>
+                                    </td>
+                                    <td class="vc-middle">
+                                            <if condition="$row.pay_status eq 'success'">
+                                            <span class="label label-success">成功</span>
+                                            <elseif condition="$row.pay_status eq 'fail'"/>
+                                            <span class="label label-danger">失败</span>
+                                            <elseif condition="$row.pay_status eq 'pedding'"/>
+                                            <span class="label label-info">正在进行</span>
+                                            </if>
+                                    </td>
+                                    <td style="text-align:center;" class="vc-middle">
+                                        <a href="{:U('Money/details', array('id'=>$row['id']))}" class="btn btn-default btn-xs">查看详情</a>
+                                    </td>
+                                </tr>
+                            </volist>
+
+
+                            </tbody>
+                        </table>
+
+                    </div>
+                    <div class="box-footer">
+                        <div class="row">
+                            <div class="col-sm-5"></div>
+                            <div class=" col-sm-7 ">
+                                <div class="text-right">
+                                    {$page}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- end box-->
+            </div>
+        </div>
+    </section>
+    <!-- /.content  -->
+</div>
+<script type="text/javascript">
+    var type = "{$ty}";
+
+    if(type == 'all'){
+        $("#grop a:eq(0)").addClass('btn-success');
+    }else if(type == 'bonus'){
+        $("#grop a:eq(1)").addClass('btn-success');
+    }else if(type == 'recharge'){
+        $("#grop a:eq(2)").addClass('btn-success');
+    }
+    //搜索判断 输入为空允许搜索
+   $("#sel_ok").click(function (){
+       var _val = $("input[name=sec]").val();
+       var val = $.trim(_val);
+       if(val == ''){
+            return false;
+       }
+   })
+
+
+</script>
+<include file="Public:footer"/>

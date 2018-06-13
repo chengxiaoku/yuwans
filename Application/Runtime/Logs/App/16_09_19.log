@@ -1,0 +1,85 @@
+[ 2016-09-19T13:06:09+08:00 ] ::1 /yuwan/index.php?m=app&c=api&a=getScoreList&groupId=1&city=%E6%B4%9B%E9%98%B3&userId=10&pageNo=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.029001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2016-09-19T13:06:21+08:00 ] ::1 /yuwan/index.php?m=app&c=api&a=getScoreList&groupId=1&city=%E6%B4%9B%E9%98%B3&userId=10&pageNo=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2016-09-19T13:06:55+08:00 ] ::1 /yuwan/index.php?m=app&c=api&a=getScoreList&groupId=1&city=%E6%B4%9B%E9%98%B3&userId=10&pageNo=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yw_user_player` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yw_community_users` [ RunTime:0.0010s ]
+ERR: 1054:Unknown column 't3.pk_score' in 'field list'
+ [ SQL语句 ] : SELECT t1.user_id,t2.avatar,t2.nickname,t2.profile,t3.pk_score FROM yw_community_users t1  left join yw_user t2 on t1.user_id = t2.id    left join yw_user_player t3 on t2.id = t3.user_id   WHERE (  t1.comm_id = 1 and t1.status = 'open'  ) ORDER BY  t3.pk_score desc  LIMIT 0,10  
+ERR: 1054:Unknown column 't3.pk_score' in 'field list'
+ [ SQL语句 ] : SELECT t1.user_id,t2.avatar,t2.nickname,t2.profile,t3.pk_score FROM yw_community_users t1  left join yw_user t2 on t1.user_id = t2.id    left join yw_user_player t3 on t2.id = t3.user_id   WHERE (  t1.comm_id = 1 and t1.status = 'open'  ) ORDER BY  t3.pk_score desc  LIMIT 0,10  
+
+[ 2016-09-19T13:17:39+08:00 ] ::1 /yuwan/index.php?m=app&c=api&a=getScoreList&groupId=1&city=%E6%B4%9B%E9%98%B3&userId=10&pageNo=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yw_user_player` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `yw_community_users` [ RunTime:0.0010s ]
+SQL: SELECT t1.user_id,t2.avatar,t2.nickname,t2.profile,t3.pk_score FROM yw_community_users t1  left join yw_user t2 on t1.user_id = t2.id    left join yw_user_player t3 on t2.id = t3.user_id   WHERE (  t1.comm_id = 1 and t1.status = 'open'  ) ORDER BY  t3.pk_score desc  LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM yw_community_users t1 WHERE ( t1.comm_id = 1 and t1.status = 'open' and user_id = 10 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yw_community` [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `yw_community` WHERE (  id = 1  ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-09-19T13:20:04+08:00 ] ::1 /yuwan/index.php?m=app&c=api&a=getScoreList&groupId=1&city=%E6%B4%9B%E9%98%B3&userId=10&pageNo=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yw_user_player` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yw_community_users` [ RunTime:0.0010s ]
+SQL: SELECT t1.user_id,t2.avatar,t2.nickname,t2.profile,t3.pk_score FROM yw_community_users t1  left join yw_user t2 on t1.user_id = t2.id    left join yw_user_player t3 on t2.id = t3.user_id   WHERE (  t1.comm_id = 1 and t1.status = 'open'  ) ORDER BY  t3.pk_score desc  LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM yw_community_users t1 WHERE ( t1.comm_id = 1 and t1.status = 'open' and user_id = 10 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yw_community` [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `yw_community` WHERE (  id = 1  ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-09-19T13:20:33+08:00 ] ::1 /yuwan/index.php?m=app&c=api&a=getScoreList&groupId=36&city=%E6%B4%9B%E9%98%B3&userId=10&pageNo=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yw_user_player` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yw_community_users` [ RunTime:0.0010s ]
+SQL: SELECT t1.user_id,t2.avatar,t2.nickname,t2.profile,t3.pk_score FROM yw_community_users t1  left join yw_user t2 on t1.user_id = t2.id    left join yw_user_player t3 on t2.id = t3.user_id   WHERE (  t1.comm_id = 36 and t1.status = 'open'  ) ORDER BY  t3.pk_score desc  LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM yw_community_users t1 WHERE ( t1.comm_id = 36 and t1.status = 'open' and user_id = 10 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yw_community` [ RunTime:0.0040s ]
+SQL: SELECT `title` FROM `yw_community` WHERE (  id = 36  ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-09-19T13:21:11+08:00 ] ::1 /yuwan/index.php?m=app&c=api&a=getScoreList&groupId=36&city=%E6%B4%9B%E9%98%B3&userId=10&pageNo=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yw_user_player` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yw_community_users` [ RunTime:0.0020s ]
+SQL: SELECT t1.user_id,t2.avatar,t2.nickname,t2.profile,t3.pk_score FROM yw_community_users t1  left join yw_user t2 on t1.user_id = t2.id    left join yw_user_player t3 on t2.id = t3.user_id   WHERE (  t1.comm_id = 36 and t1.status = 'open'  ) ORDER BY  t3.pk_score desc  LIMIT 0,10   [ RunTime:0.0000s ]
+

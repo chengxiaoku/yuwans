@@ -1,0 +1,137 @@
+<include file="Public:header"/>
+<include file="Public:menu"/>
+<div class="content-wrapper">
+    <include file="Public:breadcrumb"/>
+    <!-- 主体内容 -->
+    <section class="content">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="box box-primary">
+                    <div class="box-header">
+                        <a class="btn btn-success " type="button" href="{:U('Goods/goods_add')}">添加商品</a>
+                        <a class="btn btn-warning" type="button" href="{:U('Goods/history')}">兑换历史</a>
+                        <div class="select pull-right">
+                            <form method="post" action="{:U('Goods/sel')}">
+                                <div class="input-group" style="width:310px; margin-left: 5px;">
+                                    <input type="text" name="sec" class="form-control" value="{$keyword}" placeholder="请输入商品名称..">
+                                    <div class="input-group-btn">
+                                        <button class="btn btn-default" id="sel_ok" type="submit"><i class="fa fa-search"></i></button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="box-body">
+                        <table class="table table-hover">
+                            <tbody>
+                            <tr>
+                                <th width="25%" class="vc-middle">商品封面</th>
+                                <th width="18%" class="vc-middle" >商品名称</th>
+                                <th width="10%" class="vc-middle" >分值</th>
+                                <th width="10%" class="vc-middle" >原价</th>
+                                <th width="10%" class="vc-middle" >销量</th>
+                                <th width="15%" class="vc-middle" >上架时间</th>
+                                <th width="13%" class="vc-middle" >管理</th>
+                            </tr>
+                            <volist name="data" id="row">
+                                <tr>
+                                    <td class="vc-middle text-center"><img style="width: 120px; height: 120px;" src="{$row.image}"></td>
+                                    <td class="vc-middle text-center">{$row.title}</td>
+                                    <td class="vc-middle text-center">{$row.paymoney}</td>
+                                    <td class="vc-middle text-center">{$row.price}</td>
+                                    <td class="vc-middle text-center">{$row.sales}</td>
+                                    <td class="vc-middle text-center">
+                                        <if condition="$row.add_time eq '0000-00-00 00:00:00'">
+                                            已下架
+                                            <else/>
+                                            {$row.add_time}
+                                        </if>
+                                    </td>
+                                    <td style="text-align:center;" class="vc-middle">
+                                        <a  class="btn btn-default btn-xs" href="{:U('Goods/goods_update',array('updat_id'=>$row['id']))}">修改</a>
+                                        <a  class="btn btn-default btn-xs" onclick="del('{$row.id}')">删除</a>
+                                        <a  class="btn btn-default btn-xs" pp="{$row.id}" onclick="aj(this)"><if condition="$row.add_time eq '0000-00-00 00:00:00'">上架<else/>下架</if></a>
+                                    </td>
+                                </tr>
+                            </volist>
+                            </tbody>
+                        </table>
+
+                    </div>
+                    <div class="box-footer">
+                        <div class="row">
+                            <div class="col-sm-5"></div>
+                            <div class=" col-sm-7 ">
+                                <div class="text-right">
+                                    {$page}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- end box-->
+            </div>
+        </div>
+    </section>
+
+    <!--模态框-->
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title">删除操作</h4>
+                </div>
+                <div class="modal-body">
+                    <h5 style="color: red;"><span class="glyphicon glyphicon-exclamation-sign" style="margin-right:10px; "></span><span id="data_sum"></span></h5>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                    <button type="button" class="btn btn-primary" onclick="del_ok()"> 确认</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!-- /.content  -->
+</div>
+<script type="text/javascript">
+    $("table tr:eq(0) th").each(function () {
+        $(this).addClass('text-center');
+    });
+    del_id = 0;
+    function del(a){
+        del_id = a;
+        $("#data_sum").text('是否删除这条数据?');
+        $('#myModal').modal('show');
+    }
+    //删除
+    function del_ok(){
+        location.href = './admin.php?m=Admin&c=Goods&a=del&del_id='+del_id;
+    }
+    //异步上下架
+    function aj(obj){
+        var pp = $(obj).attr('pp');
+        if($(obj).text() == '下架'){
+            $.post("{:U('Goods/aj')}",{sj_id:pp,type:'sj'},function(result){
+                if(result ==1){
+                    $(obj).parent().prev().text('已下架');
+                    $(obj).text('上架');
+                }
+            });
+        }else if($(obj).text() == '上架'){
+            $.post("{:U('Goods/aj')}",{sj_id:pp,type:'xj'},function(result){
+                $(obj).parent().prev().text(result);
+                $(obj).text('下架');
+            });
+        }
+    }
+   $("#sel_ok").click(function (){
+       var val = $("input[name=sec]").val();
+       if($.trim(val) ==''){
+            return false;
+       }
+   })
+
+</script>
+<include file="Public:footer"/>

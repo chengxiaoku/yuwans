@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{$page_title} | 管理后台</title>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+    <!-- Bootstrap 3.3.4 -->
+    <link href="{:ASSETS}bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <!-- FontAwesome 4.3.0 -->
+    <link href="{:ASSETS}fonts/font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <!-- Ionicons 2.0.0 -->
+    <link href="{:ASSETS}fonts/ionicons-2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css"/>
+    <!-- Theme style -->
+    <link href="{:ASSETS}css/AdminLTE.css" rel="stylesheet" type="text/css"/>
+    <link href="{:ASSETS}css/skins/skin-blue.min.css" rel="stylesheet" type="text/css"/>
+    <!-- ./wrapper -->
+    <script src="{:ASSETS}plugins/jQuery/jQuery-2.1.4.min.js"></script>
+    <script src="{:ASSETS}plugins/jQueryUI/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="{:ASSETS}bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="{:ASSETS}js/app.min.js" type="text/javascript"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="{:ASSETS}js/html5shiv.min.js"></script>
+    <script src="{:ASSETS}js/respond.min.js"></script>
+    <![endif]-->
+    <link href="{:ASSETS}css/custom.css" rel="stylesheet" type="text/css"/>
+    <script src="{:ASSETS}plugins/bootbox.js"></script>
+</head>
+
+<body class="skin-blue sidebar-mini">
+<div class="wrapper">
+    <header class="main-header">
+        <!-- Logo -->
+        <a href="index2.html" class="logo">
+            <!-- mini logo for sidebar mini 50x50 pixels -->
+            <span class="logo-mini">YW</span>
+            <!-- logo for regular state and mobile devices -->
+            <span class="logo-lg">后台管理</span>
+        </a>
+        <!-- Header Navbar: style can be found in header.less -->
+        <nav class="navbar navbar-static-top" role="navigation">
+            <!-- Sidebar toggle button-->
+            <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+                <span class="sr-only">Toggle navigation</span>
+            </a>
+            <div class="navbar-custom-menu">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown user user-menu">
+                        <a href="#" class="dropdown-toggle">
+                            <i class="glyphicon glyphicon-user"></i><span>{$uname}</span>
+                        </a>
+                    </li>
+
+                    <li class="dropdown user user-menu">
+                        <a class="dropdown-toggle" href="{:U('Auth/logout')}">
+                            <i class="glyphicon glyphicon-off"></i><span>安全退出</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+</div>

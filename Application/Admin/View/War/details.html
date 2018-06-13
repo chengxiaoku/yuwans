@@ -1,0 +1,102 @@
+<include file="Public:header"/>
+<include file="Public:menu"/>
+<div class="content-wrapper">
+    <include file="Public:breadcrumb"/>
+
+    <!-- 主体内容 -->
+    <section class="content">
+        <div class="row">
+            <div class="col-md-12 " style="">
+                <div class="box box-solid padding20" style="">
+                    <table class="table table-hover table-noboder">
+                        <tbody>
+                        <tr>
+                            <td width="20%" class="text-right">游戏比赛标题：</td>
+                            <td>{$data.title}</td>
+                        </tr>
+
+                        <tr>
+                            <td width="20%" class="text-right">游戏名称：</td>
+                            <td>{$data.game_title}</td>
+                        </tr>
+
+                        <tr>
+                            <td width="20%" class="text-right">房主：</td>
+                            <td>{$data.real_name}</td>
+                        </tr>
+
+                        <tr>
+                            <td width="20%" class="text-right">开始时间：</td>
+                            <td>{$data.begin_time}</td>
+                        </tr>
+
+                        <tr>
+                            <td width="20%" class="text-right">游戏人数：</td>
+                            <td>{$data.team}人</td>
+                        </tr>
+
+                        <tr>
+                            <td width="20%" class="text-right">游戏奖金：</td>
+                            <td>{$data.prize}元</td>
+                        </tr>
+
+                        <tr>
+                            <td width="20%" class="text-right">比赛场数：</td>
+                            <td>{$data.times}场</td>
+                        </tr>
+
+                        <tr>
+                            <td width="20%" class="text-right">已进行场数：</td>
+                            <td>{$data[times] - $data[remain]}场</td>
+                        </tr>
+
+                        <tr>
+                            <td width="20%" class="text-right">游戏状态：</td>
+                            <td>
+                                <if condition="$data[status] eq 'draft'">
+                                  <span class="label label-success">准备中</span>
+                                <elseif condition="$data[status] eq 'doing'"/>
+                                  <span class="label label-success">比赛进行中</span>
+                                <elseif condition="$data[status] eq 'pedding'"/>
+                                  <span class="label label-info">比赛应战中</span>
+                                <elseif condition="$data[status] eq 'done'"/>
+                                  <span class="label label-default">比赛已结束</span>
+                                <elseif condition="$data[status] eq 'delay'"/>
+                                  <span class="label label-waring">比赛延期中</span>
+                                </if>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="20%" class="text-right">所在网吧：</td>
+                            <td>
+                                {$data.netbar_title}
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="20%" class="text-right">游戏规则：</td>
+                            <td>
+                                {$data.rule}
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="20%" class="text-right"></td>
+                            <td>
+                                <a href="{:U('war/index')}" class="btn btn-info btn-flat">返回游戏桌列表</a>
+                            </td>
+                        </tr>
+
+
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <!-- /.content  -->
+
+</div>
+<include file="Public:footer"/>

@@ -1,0 +1,63 @@
+<include file="Public:header"/>
+{$page = 'permission'}
+<include file="Public:menu"/>
+<div class="content-wrapper">
+    <include file="Public:breadcrumb"/>
+    <!--引入树结构-->
+    <link href="./Public/jquery-treetable/jquery.treetable.css" rel="stylesheet">
+    <script type="text/javascript" src="./Public/jquery-treetable/jquery.treetable.js"></script>
+    <!-- 主体内容 -->
+    <section class="content">
+        <div class="row">
+            <!-- left column -->
+            <div class="col-md-8">
+                <!-- general form elements -->
+                <div class="box box-solid">
+                    <form action="{:U('Role/inser_qx')}" method="post">
+                    <div class="box-body padding20">
+                        <input type="hidden" value="{$id}" name="id">
+                        <table id="mytable" class="treetable table table-hover">
+
+
+                            <?php foreach($data as $key=>$val ){
+                            ?>
+                            <tr data-tt-id="{$key+1}" >
+                                <td><label><input name="qx[]" value="{$data1[$key]}" type="checkbox">&nbsp;{$val}</label></td>
+                            </tr>
+                            <?php }
+                            ?>
+
+                        </table>
+                    <div>
+                    </div><!-- /.box-body -->
+
+                    <div class="box-footer p20 ">
+                        <button class="btn btn-primary w100" type="submit">保存</button>
+                        <a onclick="history.go('-1')" class="btn btn-info w100 ml20" type="submit">返回</a>
+                    </div>
+                    </form>
+                </div><!-- /.box -->
+            </div>
+        </div>
+    </section><!-- /.content -->
+    <!-- /.content  -->
+</div>
+<script type="text/javascript">
+    function deleteData() {
+        if (confirm("确认要删除该条数据？")) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+        //显示树状结构
+        $("#mytable").treetable({expandable:true});
+
+        var arr_num = eval('<?php echo json_encode($key_id) ?>');
+        for(var i= 0;i<arr_num.length;i++){
+            $("input[name='qx[]']:eq("+arr_num[i]+")").attr('checked','true');
+        }
+
+</script>
+
+<include file="Public:footer"/>

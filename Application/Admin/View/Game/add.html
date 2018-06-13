@@ -1,0 +1,150 @@
+<include file="Public:header"/>
+<include file="Public:menu"/>
+<div class="content-wrapper">
+    <include file="Public:breadcrumb"/>
+
+    <!-- 主体内容 -->
+    <section class="content">
+        <div class="row" style="">
+            <!-- left column -->
+            <div class="col-md-8" style="">
+                <!-- general form elements -->
+                <div class="box box-solid" style="">
+                    <!-- form start -->
+                    <form role="form" method="post" action="{:U('Game/add')}">
+                        <div class="box-body" style="">
+                            <div class="form-group"><!-- has-error-->
+                                <label>游戏名称 <span class="required">*</span></label>
+                                <div>
+                                    <input name="title" type="text" placeholder="输入游戏标题 ..."
+                                           class="form-control w500 inline-block"
+                                           value="">
+                                    <em class="help-block"></em>
+                                </div>
+                            </div>
+                            <div class="form-group input-group w500">
+                                <label>图片</label>
+                                <div>
+
+                                    <if condition="!empty($data[thumb])">
+                                        <img src="{$data[thumb]}" width="200" id="previewThumb">
+                                    </if>
+                                    <input id="thumb" class="form-control w500 inline-block" name="thumb" type="text" style="margin-bottom:10px;" >
+                                    <div style="margin-top:10px;">
+                                        <input id="ke-upload-button" type="button" value="上传图片" class="btn btn-success btn-flat">
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label>场次</label>
+                                <div>
+                                    <input name="times" value="" type="text" placeholder=""
+                                           class="form-control w200 inline-block">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label>最多参与人数</label>
+                                <div>
+                                    <input name="player_max" value="" type="text" placeholder=""
+                                           class="form-control w200 inline-block">
+                                </div>
+                            </div>
+
+                            <!-- <div class="form-group">
+                                <label>最小参与人数</label>
+                                <div>
+                                    <input name="player_min" value="" type="text" placeholder=""
+                                           class="form-control w200 inline-block">
+                                </div>
+                            </div> -->
+
+                            <div class="form-group">
+                                <label>最大奖金额</label>
+                                <div>
+                                    <input name="prize_max" value="" type="text" placeholder=""
+                                           class="form-control w200 inline-block">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label>最小奖金额</label>
+                                <div>
+
+                                    <input name="prize_min" value="" type="text" placeholder=""
+                                           class="form-control w200 inline-block">
+
+                                </div>
+
+                                <div class="form-group">
+                                    <label>描述</label>
+                                    <textarea name="description" id="content" class="form-control wp50" rows="6"
+                                              placeholder="输入描述 ..."></textarea>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="box-footer">
+                            <button type="submit" class="btn btn-primary w100">保存</button>
+                            <a type="submit" class="btn btn-info w100 ml20"
+                               onclick="history.go('-1')">返回</a>
+                        </div>
+
+                    </form>
+
+                </div><!-- /.box -->
+            </div><!--/.col (left) -->
+        </div>
+    </section>
+    <!-- /.content  -->
+</div>
+
+<!--kind editor-->
+<script charset="utf-8" type="text/javascript" src="{:ASSETS}plugins/kindeditor/kindeditor-all-min.js"></script>
+<script type="text/javascript">
+    var KIND_EDITOR;
+    KindEditor.ready(function (K) {
+        var options = {
+            resizeType: 1,
+            allowPreviewEmoticons: false,
+            allowImageUpload: true,
+            height: 300,
+            allowFileUpload: true,
+            uploadJson: '{:ASSETS}plugins/kindeditor/php/upload_json.php',
+            items: [
+                'fontname', 'fontsize', '|', 'forecolor', 'hilitecolor', 'bold', 'italic', 'underline',
+                'removeformat', '|', 'justifyleft', 'justifycenter', 'justifyright', 'insertorderedlist',
+                'insertunorderedlist', '|', 'emoticons', 'image', 'link']
+        };
+        KIND_EDITOR = K.create('#content', options);
+
+        //上传按钮
+        var uploadButton = K.uploadbutton({
+            button : K('#ke-upload-button')[0],
+            fieldName : 'thumb',
+            url : '{:U("Game/upload")}',
+            afterUpload : function(data) {
+                console.log(data);
+                if (data.error === 0) {
+                    $("#previewThumb").attr("src", data.url);
+                    $("#thumb").val(data.url);
+                } else {
+                    alert(data.error);
+                }
+            }
+        });
+        uploadButton.fileBox.change(function(e) {
+            uploadButton.submit();
+        });
+
+    });
+
+    function uploadImage() {
+
+    }
+
+</script>
+<include file="Public:footer"/>

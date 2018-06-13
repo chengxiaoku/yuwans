@@ -1,0 +1,204 @@
+<include file="Public:header"/>
+<include file="Public:menu"/>
+<div class="content-wrapper">
+    <include file="Public:breadcrumb"/>
+
+    <!-- 主体内容 -->
+    <section class="content">
+        <div class="row">
+            <!-- left column -->
+            <div class="col-md-8">
+                <form method="post" action="">
+                    <div class="nav-tabs-custom">
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a aria-expanded="true" data-toggle="tab" href="#tab_1">基础配置</a></li>
+                            <li class=""><a aria-expanded="false" data-toggle="tab" href="#tab_2">费用配置</a></li>
+                            <li class=""><a aria-expanded="false" data-toggle="tab" href="#tab_3">积分清零周期</a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <div id="tab_1" class="tab-pane active">
+                                <div class="form-group">
+                                    <label for="">站点名称</label>
+                                    <div>
+                                        <input name="site_name" type="text" value="{$data.site_name}" class="form-control w500 inline-block" placeholder="输入页面名称 ...">
+
+                                        <em class="help-block">说明：站点名称.</em>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="">站点域名</label>
+                                    <div>
+                                        <input name="domain_name" value="{$data.domain_name}" type="text" class="form-control w500 inline-block"  placeholder="输入站点域名 ...">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="">网站关键词</label>
+                                    <div>
+                                        <input name="site_keywords" value="{$data.site_keywords}" type="text" class="form-control w500 inline-block" placeholder="输入网站关键词 ...">
+                                        <em class="help-block">说明：SEO配置.</em>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="">网站描述</label>
+                                    <div>
+                                        <textarea placeholder="网站描述 ..."  rows="3" class="form-control w500" name="site_description">{$data.site_description}</textarea>
+                                        <em class="help-block">说明：SEO配置.</em>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="">备案号 <span class="required">*</span></label>
+                                    <div>
+                                        <input type="text" name="site_icp" value="{$data.site_icp}" class="form-control w500 inline-block" placeholder="输入网站备案号 ...">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="">站点状态</label>
+                                    <div>
+                                        <div class="radio inline-block mt0">
+                                            <label>
+                                                <input type="radio" <if condition="$data[site_status] eq 'option1'">checked="checked"</if>  value="option1" name="site_status">开启
+                                            </label>
+                                        </div>
+                                        <div class="radio inline-block mt0 ml20">
+                                            <label>
+                                                <input type="radio" <if condition="$data[site_status] eq 'option2'">checked="checked"</if> value="option2" name="site_status">关闭
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div><!-- /.tab-pane -->
+
+
+                            <div id="tab_2" class="tab-pane">
+
+                                <div class="form-group">
+                                    <label for="">平台服务费比例</label>
+                                    <div>
+                                        <input type="text" name="service_charge" class="form-control w200 inline-block" id="" placeholder="" value="{$data.service_charge}">&nbsp;%
+                                    </div>
+                                    <em class="help-block">说明：输入整数（10表示10%）。</em>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="">推荐鱼丸奖励</label>
+                                    <div>
+                                        <input type="text" name="referral_bonuses" class="form-control w200 inline-block" id="" placeholder="" value="{$data.referral_bonuses}">&nbsp;鱼丸
+                                    </div>
+                                    <em class="help-block">说明：输入整数。</em>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="">签到奖励1</label>
+                                    <div>
+                                        连续签到&nbsp;<input type="text" name="signin[1][day]" class="form-control w50 inline-block" id="" placeholder="" value="{$data[signin][1][day]}">
+                                        &nbsp;天后奖励<input type="text" name="signin[1][aw]" class="form-control w50 inline-block" id="" placeholder="" value="{$data[signin][1][aw]}">
+                                        &nbsp;积分
+                                    </div>
+                                    <em class="help-block">说明：输入整数。</em>
+                                </div>
+                                <div class="form-group">
+                                    <label for="">签到奖励2</label>
+                                    <div>
+                                        连续签到&nbsp;<input type="text" name="signin[2][day]" class="form-control w50 inline-block" id="" placeholder="" value="{$data[signin][2][day]}">
+                                        &nbsp;天后奖励<input type="text" name="signin[2][aw]" class="form-control w50 inline-block" id="" placeholder="" value="{$data[signin][2][aw]}">
+                                        &nbsp;积分
+                                    </div>
+                                    <em class="help-block">说明：输入整数。</em>
+                                </div>
+                                <div class="form-group">
+                                    <label for="">签到奖励3</label>
+                                    <div>
+                                        连续签到&nbsp;<input type="text" name="signin[3][day]" class="form-control w50 inline-block" id="" placeholder="" value="{$data[signin][3][day]}">
+                                        &nbsp;天后奖励<input type="text" name="signin[3][aw]" class="form-control w50 inline-block" id="" placeholder="" value="{$data[signin][3][aw]}">
+                                        &nbsp;积分
+                                    </div>
+                                    <em class="help-block">说明：输入整数。</em>
+                                </div>
+                                <div class="form-group">
+                                    <label for="">签到奖励4</label>
+                                    <div>
+                                        连续签到&nbsp;<input type="text" name="signin[4][day]" class="form-control w50 inline-block" id="" placeholder="" value="{$data[signin][4][day]}">
+                                        &nbsp;天后奖励<input type="text" name="signin[4][aw]" class="form-control w50 inline-block" id="" placeholder="" value="{$data[signin][4][aw]}">
+                                        &nbsp;积分
+                                    </div>
+                                    <em class="help-block">说明：输入整数。</em>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="">充值</label>
+                                    <div>
+                                        充值&nbsp;<input type="text" name="recharge[0][money]" class="form-control w50 inline-block" id="" placeholder="" value="{$data[recharge][0][money]}">
+                                        &nbsp;元现金得<input type="text" name="recharge[0][exchange]" class="form-control w80 inline-block" id="" placeholder="" value="{$data[recharge][0][exchange]}">
+                                        &nbsp;鱼丸
+                                    </div>
+                                    <em class="help-block">说明：输入整数。</em>
+                                </div>
+                                <div class="form-group">
+                                    <label for="">充值</label>
+                                    <div>
+                                        充值&nbsp;<input type="text" name="recharge[1][money]" class="form-control w50 inline-block" id="" placeholder="" value="{$data[recharge][1][money]}">
+                                        &nbsp;元现金得<input type="text" name="recharge[1][exchange]" class="form-control w80 inline-block" id="" placeholder="" value="{$data[recharge][1][exchange]}">
+                                        &nbsp;鱼丸
+                                    </div>
+                                    <em class="help-block">说明：输入整数。</em>
+                                </div>
+                                <div class="form-group">
+                                    <label for="">充值</label>
+                                    <div>
+                                        充值&nbsp;<input type="text" name="recharge[2][money]" class="form-control w50 inline-block" id="" placeholder="" value="{$data[recharge][2][money]}">
+                                        &nbsp;元现金得<input type="text" name="recharge[2][exchange]" class="form-control w80 inline-block" id="" placeholder="" value="{$data[recharge][2][exchange]}">
+                                        &nbsp;鱼丸
+                                    </div>
+                                    <em class="help-block">说明：输入整数。</em>
+                                </div>
+                                <div class="form-group">
+                                    <label for="">充值</label>
+                                    <div>
+                                        充值&nbsp;<input type="text" name="recharge[3][money]" class="form-control w50 inline-block" id="" placeholder="" value="{$data[recharge][3][money]}">
+                                        &nbsp;元现金得<input type="text" name="recharge[3][exchange]" class="form-control w80 inline-block" id="" placeholder="" value="{$data[recharge][3][exchange]}">
+                                        &nbsp;鱼丸
+                                    </div>
+                                    <em class="help-block">说明：输入整数。</em>
+                                </div>
+
+                            </div><!-- /.tab-pane -->
+
+                            <div id="tab_3" class="tab-pane">
+
+                                <div class="form-group">
+                                    <label for="">玩家积分清零周期</label>
+                                    <div>
+                                        <input type="text" name="per_jifen" value="{$data.per_jifen}" class="form-control w200 inline-block" id="" placeholder="" >&nbsp;月
+                                    </div>
+                                    <em class="help-block">说明：输入整数。</em>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="">圈子创建积分下限</label>
+                                    <div>
+                                        <input type="text" name="jifen_xiaxian" value="{$data.jifen_xiaxian}" class="form-control w200 inline-block" id="" placeholder="">&nbsp;分
+                                    </div>
+                                    <em class="help-block">说明：输入整数。</em>
+                                </div>
+                            </div>
+
+                            <div class="box-footer">
+                                <button class="btn btn-primary w100 btn-flat" type="submit">保存</button>
+                            </div>
+                        </div><!-- /.tab-content -->
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- /.content  -->
+
+</div>
+<include file="Public:footer"/>

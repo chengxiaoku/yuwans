@@ -1,0 +1,135 @@
+[ 2016-07-23T15:38:57+08:00 ] ::1 /yuwan/Public/assets//plugins/kindeditor-all.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000969s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002524s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-07-23T15:38:58+08:00 ] ::1 /yuwan/Public/assets//plugins/kindeditor-all.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002483s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-07-23T15:39:32+08:00 ] ::1 /yuwan/Public/assets//plugins/kindeditor-all.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002107s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-07-23T15:39:32+08:00 ] ::1 /yuwan/Public/assets//plugins/kindeditor-all.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-07-23T15:39:39+08:00 ] ::1 /yuwan/Public/assets//plugins/kindeditor-all.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000865s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001476s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-07-23T15:39:39+08:00 ] ::1 /yuwan/Public/assets//plugins/kindeditor-all.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001244s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-07-23T15:40:14+08:00 ] ::1 /yuwan/Public/assets/plugins/kindeditor/kindeditor-all.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-07-23T15:40:15+08:00 ] ::1 /yuwan/Public/assets/plugins/kindeditor/kindeditor-all.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001208s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-07-23T17:18:17+08:00 ] ::1 /yuwan/false
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001815s ]
+ERR: 无法加载控制器:False
+
+[ 2016-07-23T17:19:54+08:00 ] ::1 /yuwan/[object%20Object]
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001043s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002229s ]
+ERR: 无法加载控制器:[object Object]
+
+[ 2016-07-23T17:21:36+08:00 ] ::1 /yuwan/upload/20160723/5793371fe3af9.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+
+[ 2016-07-23T17:23:29+08:00 ] ::1 /yuwan/Public/upload/20160723/5793376b589ee.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001089s ]
+
+[ 2016-07-23T17:23:33+08:00 ] ::1 /yuwan/Public/upload/20160723/5793376b589ee.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000915s ]
+
+[ 2016-07-23T17:23:34+08:00 ] ::1 /yuwan/Public/upload/20160723/5793376b589ee.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+
+[ 2016-07-23T18:11:02+08:00 ] ::1 /yuwan/Public/assets/Public/images/games/game01.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000875s ]
+
+[ 2016-07-23T18:11:02+08:00 ] ::1 /yuwan/Public/assets/Public/images/games/game01.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+
+[ 2016-07-23T18:11:30+08:00 ] ::1 /yuwan/Public/assets/Public/images/games/game01.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000827s ]
+
+[ 2016-07-23T18:12:41+08:00 ] ::1 /yuwan/Public/assets/images/games/game01.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000934s ]
+
+[ 2016-07-23T18:12:42+08:00 ] ::1 /yuwan/Public/assets/images/games/game01.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000138s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001318s ]
+

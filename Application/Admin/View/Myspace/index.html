@@ -1,0 +1,118 @@
+<include file="Public:header"/>
+<include file="Public:menu"/>
+<style>
+    .text{
+        text-align: center;
+    }
+</style>
+<div class="content-wrapper">
+    <include file="Public:breadcrumb"/>
+    <!-- 主体内容 -->
+    <section class="content">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="box box-primary">
+                    <div class="box-header">
+                            <div class="select pull-right">
+                                <form method="post" name="_form">
+                                    <div class="input-group" style="width:350px; margin-left: 5px;">
+                                        <input type="text" id="ss_id" name="ss" class="form-control" value="" placeholder="搜索说说内容....">
+                                        <div class="input-group-btn">
+                                            <button class="btn btn-default" id="subm"><i class="fa fa-search"></i></button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                    </div>
+                    <div class="box-body">
+                        <table class="table table-hover">
+                            <tbody style="text-align: center;">
+                            <tr>
+                                <th width="15%" class="vc-middle text">用户名</th>
+                                <th width="60%" class="vc-middle text" >内容</th>
+                                <th width="15%" class="vc-middle text" >时间</th>
+                                <th width="10%" class="text" >管理操作</th>
+                            </tr>
+
+                            <?php foreach($data as $row) : ?>
+                            <tr>
+                                <td class="vc-middle"><?php echo $row['username']; ?></td>
+                                <td class="vc-middle"><?php echo $row['content'];  ?></td>
+                                <td class="vc-middle"><?php echo $row['add_time']; ?></td>
+                                <td style="text-align:center;" class="vc-middle">
+                                    <a href="{:U('Myspace/del', array('id'=>$row['id']))}" class="btn btn-default btn-xs" onclick="return deleteData(this)">删除</a>
+                                </td>
+                            </tr>
+                            <?php endforeach; ?>
+                            </tbody>
+                        </table>
+                    </div>
+                <?php
+                    $_page = isset($_GET['page'])?$_GET['page'] :'';
+                    if(empty($_page)){
+                        $_page = 1;
+                    }
+                ?>
+                    <div class="box-footer text-right">
+                        <ul class="pagination">
+                            <li class="paginate_button previous disabled" id="example2_previous"><a id="sy" aria-controls="example2" data-dt-idx="0" tabindex="0">上一页</a></li>
+                            <for start="1" end="$pageCount">
+                                <if condition=" $_page== $i">
+                                    <li class="paginate_button active"><a href="{:U('Myspace/show',array('page'=>$i))}" aria-controls="example2" data-dt-idx="2" tabindex="0">{$i}</a></li>
+                                <else/>
+                                    <li class="paginate_button"><a href="{:U('Myspace/show',array('page'=>$i))}" aria-controls="example2" data-dt-idx="2" tabindex="0">{$i}</a></li>
+                                </if>
+
+                            </for>
+                            <li class="paginate_button next" id="example2_next"><a id="xy" aria-controls="example2" data-dt-idx="7" tabindex="0">下一页</a></li>
+                        </ul>
+                    </div>
+                </div><!-- end box-->
+            </div>
+        </div>
+    </section>
+    <!-- /.content  -->
+</div>
+<script type="text/javascript">
+    //获取总页数
+    var _page_num = {$pageCount};
+    _page_num -=1;
+    //获取当前页数
+    var _page_num1 = {$_page};
+
+    function deleteData() {
+        if (confirm("确认要删除该条数据？")) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    $("#subm").click(function (){
+        var ss_id=$("#ss_id").val();
+        if($.trim(ss_id) ==''){
+            alert('搜索不能为空!!');
+        }else{
+            _form.action="{:U('Myspace/index')}";
+            _form.submit();
+        }
+    });
+    //上一页
+    $("#sy").click(function (){
+        if(_page_num1 <= _page_num){
+            $(this).attr('href',"{:U('Myspace/show',array('page'=>$_page-1))}");
+        }else{
+            $(this).attr('href',"{:U('Myspace/show',array('page'=>$_page))}");
+        }
+
+    });
+    //下一页
+    $("#xy").click(function (){
+        if(_page_num1 >= _page_num){
+            $(this).attr('href',"{:U('Myspace/show',array('page'=>$_page))}");
+        }else{
+            $(this).attr('href',"{:U('Myspace/show',array('page'=>$_page+1))}");
+        }
+    })
+
+</script>
+<include file="Public:footer"/>

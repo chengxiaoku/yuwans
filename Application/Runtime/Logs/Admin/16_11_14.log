@@ -1,0 +1,207 @@
+[ 2016-11-14T16:19:18+08:00 ] 127.0.0.1 /yuwan/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001655s ]
+
+[ 2016-11-14T16:19:18+08:00 ] 127.0.0.1 /yuwan/admin.php?m=Admin&c=auth&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001622s ]
+NOTIC: [8] Undefined variable: redirect_url E:\wamp\www\yuwan\Application\Admin\Controller\AuthController.class.php 第 120 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000310s ]
+NOTIC: [8] Undefined variable: site_title E:\wamp\www\yuwan\Application\Runtime\Cache\Admin\dcfb7ddaab59bfbce2ddc9c860debad0.php 第 85 行.
+NOTIC: [8] Undefined variable: meta_title E:\wamp\www\yuwan\Application\Runtime\Cache\Admin\dcfb7ddaab59bfbce2ddc9c860debad0.php 第 95 行.
+NOTIC: [8] Undefined variable: error E:\wamp\www\yuwan\Application\Runtime\Cache\Admin\dcfb7ddaab59bfbce2ddc9c860debad0.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020362s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001821s ]
+
+[ 2016-11-14T16:19:18+08:00 ] 127.0.0.1 /yuwan/admin.php?m=Admin&c=auth&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001446s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001951s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002247s ]
+
+[ 2016-11-14T16:19:29+08:00 ] 127.0.0.1 /yuwan/admin.php?m=Admin&c=auth&a=verify&t=1479111568889
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001617s ]
+
+[ 2016-11-14T16:19:30+08:00 ] 127.0.0.1 /yuwan/admin.php?m=Admin&c=auth&a=verify&t=1479111569956
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001630s ]
+
+[ 2016-11-14T16:19:33+08:00 ] 127.0.0.1 /yuwan/admin.php?m=Admin&c=auth&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001315s ]
+SQL: SHOW COLUMNS FROM `yw_admin` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `yw_admin` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `yw_admin` SET `last_time`='2016-11-14 16:19:33' WHERE `id` = 25 [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: real_name E:\wamp\www\yuwan\Application\Admin\Controller\AuthController.class.php 第 97 行.
+
+[ 2016-11-14T16:19:33+08:00 ] 127.0.0.1 /yuwan/admin.php?m=Admin&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001355s ]
+SQL: SHOW COLUMNS FROM `yw_admin` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `yw_admin` WHERE ( id=25 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yw_admin_role_priv` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `yw_admin_role_priv` WHERE ( role_id=30 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: child E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 369 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000323s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021706s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021864s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001268s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001412s ]
+
+[ 2016-11-14T16:19:36+08:00 ] 127.0.0.1 /yuwan/admin.php?m=admin&c=Role&a=admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001617s ]
+SQL: SHOW COLUMNS FROM `yw_admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `yw_admin` WHERE ( id=25 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yw_admin_role_priv` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `yw_admin_role_priv` WHERE ( role_id=30 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: child E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 369 行.
+SQL: SELECT * FROM `yw_admin`  [ RunTime:0.0003s ]
+SQL: SELECT yw_admin_role.name FROM yw_admin_role,yw_admin WHERE yw_admin.role_id=yw_admin_role.id [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000340s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021557s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021723s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001232s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001375s ]
+
+[ 2016-11-14T16:19:38+08:00 ] 127.0.0.1 /yuwan/admin.php?m=Admin&c=Role&a=admins_add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001914s ]
+SQL: SHOW COLUMNS FROM `yw_admin` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `yw_admin` WHERE ( id=25 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yw_admin_role_priv` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `yw_admin_role_priv` WHERE ( role_id=30 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: child E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\wamp\www\yuwan\Application\Admin\Controller\BaseController.class.php 第 369 行.
+SQL: SHOW COLUMNS FROM `yw_admin_role` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `yw_admin_role`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000335s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043185s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000971s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001235s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001385s ]
+

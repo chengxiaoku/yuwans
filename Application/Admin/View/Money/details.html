@@ -1,0 +1,102 @@
+<include file="Public:header"/>
+<include file="Public:menu"/>
+<div class="content-wrapper">
+    <include file="Public:breadcrumb"/>
+
+    <!-- 主体内容 -->
+    <section class="content">
+        <div class="row">
+            <div class="col-md-12 " style="">
+                <div class="box box-solid padding20" style="">
+                    <table class="table table-hover table-noboder">
+                        <tbody>
+                        <tr>
+                            <td width="20%" class="text-right">账单流水号：</td>
+                            <td>{$data[0]['sn']}</td>
+                        </tr>
+
+                        <tr>
+                            <td width="20%" class="text-right">用户：</td>
+                            <td>{$data_name}</td>
+                        </tr>
+
+                        <tr>
+                            <td width="20%" class="text-right">金额：</td>
+                            <td>{$data[0]['money']}</td>
+                        </tr>
+
+                        <tr>
+                            <td width="20%" class="text-right">类型：</td>
+                            <td>
+                                <if condition="$data[0]['type'] eq 'payment'">
+                                    在线支付
+                                    <elseif condition="$data[0]['type'] eq 'transfer'"/>
+                                    转账
+                                    <elseif condition="$data[0]['type'] eq 'recharge'"/>
+                                    代理充值
+                                    <elseif condition="$data[0]['type'] eq 'prize'"/>
+                                    现金
+                                    <elseif condition="$data[0]['type'] eq 'agent_recharge'"/>
+                                    自己充值
+                                </if>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="20%" class="text-right">支付方式：</td>
+                            <td>
+                                <if condition="$data[0]['pay_type'] eq 'alipay'">
+                                    支付宝支付
+                                    <elseif condition="$data[0]['pay_type'] eq 'wx'"/>
+                                    微信支付
+                                    <elseif condition="$data[0]['pay_type'] eq 'paymoney'"/>
+                                    现金支付
+                                </if>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="20%" class="text-right">支付状态：</td>
+                            <td>
+                                <if condition="$data[0]['pay_status'] eq 'success'">
+                                    <span class="label label-success">成功</span>
+                                    <elseif condition="$data[0]['pay_status'] eq 'fail'"/>
+                                    <span class="label label-danger">失败</span>
+                                    <elseif condition="$data[0]['pay_status'] eq 'pedding'"/>
+                                    <span class="label label-info">正在进行</span>
+                                </if>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="20%" class="text-right">时间：</td>
+                            <td>{$data[0]['add_time']}</td>
+                        </tr>
+
+                        <tr>
+                            <td width="20%" class="text-right">账单说明：</td>
+                            <td>
+                                {$data[0]['remark']}
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="20%" class="text-right"></td>
+                            <td>
+                                <button class="btn btn-info btn-flat" onclick="javascript:history.go(-1)">返回</button>
+                            </td>
+                        </tr>
+
+
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <!-- /.content  -->
+
+</div>
+<include file="Public:footer"/>

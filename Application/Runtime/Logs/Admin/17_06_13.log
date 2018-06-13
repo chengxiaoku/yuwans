@@ -1,0 +1,738 @@
+[ 2017-06-13T12:01:36+08:00 ] 127.0.0.1 /yuwans/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-06-13T12:01:36+08:00 ] 127.0.0.1 /yuwans/admin.php?m=Admin&c=auth&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: redirect_url E:\phpstudy\www\yuwans\Application\Admin\Controller\AuthController.class.php 第 120 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: site_title E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\dcfb7ddaab59bfbce2ddc9c860debad0.php 第 85 行.
+NOTIC: [8] Undefined variable: meta_title E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\dcfb7ddaab59bfbce2ddc9c860debad0.php 第 95 行.
+NOTIC: [8] Undefined variable: error E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\dcfb7ddaab59bfbce2ddc9c860debad0.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-13T12:01:37+08:00 ] 127.0.0.1 /yuwans/admin.php?m=Admin&c=auth&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-06-13T12:01:42+08:00 ] 127.0.0.1 /yuwans/admin.php?m=Admin&c=auth&a=verify&t=1497326502890
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-13T12:01:43+08:00 ] 127.0.0.1 /yuwans/admin.php?m=Admin&c=auth&a=verify&t=1497326503629
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-13T12:01:47+08:00 ] 127.0.0.1 /yuwans/admin.php?m=Admin&c=auth&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: site_title E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\dcfb7ddaab59bfbce2ddc9c860debad0.php 第 85 行.
+NOTIC: [8] Undefined variable: meta_title E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\dcfb7ddaab59bfbce2ddc9c860debad0.php 第 95 行.
+NOTIC: [8] Undefined variable: ref E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\dcfb7ddaab59bfbce2ddc9c860debad0.php 第 146 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-13T12:01:47+08:00 ] 127.0.0.1 /yuwans/admin.php?m=Admin&c=auth&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-13T12:01:57+08:00 ] 127.0.0.1 /yuwans/admin.php?m=Admin&c=auth&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+
+[ 2017-06-13T12:02:30+08:00 ] 127.0.0.1 /yuwans/admin.php?m=Admin&c=auth&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: redirect_url E:\phpstudy\www\yuwans\Application\Admin\Controller\AuthController.class.php 第 120 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: site_title E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\dcfb7ddaab59bfbce2ddc9c860debad0.php 第 85 行.
+NOTIC: [8] Undefined variable: meta_title E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\dcfb7ddaab59bfbce2ddc9c860debad0.php 第 95 行.
+NOTIC: [8] Undefined variable: error E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\dcfb7ddaab59bfbce2ddc9c860debad0.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-13T12:02:30+08:00 ] 127.0.0.1 /yuwans/admin.php?m=Admin&c=auth&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-06-13T12:02:36+08:00 ] 127.0.0.1 /yuwans/admin.php?m=Admin&c=auth&a=verify&t=1497326556047
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-13T12:02:39+08:00 ] 127.0.0.1 /yuwans/admin.php?m=Admin&c=auth&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2017-06-13T12:06:57+08:00 ] 127.0.0.1 /yuwans/admin.php?m=Admin&c=auth&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: redirect_url E:\phpstudy\www\yuwans\Application\Admin\Controller\AuthController.class.php 第 120 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: site_title E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\dcfb7ddaab59bfbce2ddc9c860debad0.php 第 85 行.
+NOTIC: [8] Undefined variable: meta_title E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\dcfb7ddaab59bfbce2ddc9c860debad0.php 第 95 行.
+NOTIC: [8] Undefined variable: error E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\dcfb7ddaab59bfbce2ddc9c860debad0.php 第 116 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-06-13T12:06:57+08:00 ] 127.0.0.1 /yuwans/admin.php?m=Admin&c=auth&a=verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-06-13T12:07:05+08:00 ] 127.0.0.1 /yuwans/admin.php?m=Admin&c=auth&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `yw_admin` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `yw_admin` WHERE `name` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `yw_admin` SET `last_time`='2017-06-13 12:07:05' WHERE `id` = 1 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: real_name E:\phpstudy\www\yuwans\Application\Admin\Controller\AuthController.class.php 第 97 行.
+
+[ 2017-06-13T12:07:05+08:00 ] 127.0.0.1 /yuwans/admin.php?m=Admin&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yw_admin` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `yw_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yw_admin_role_priv` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `yw_admin_role_priv` WHERE ( role_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: child E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 369 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-13T12:07:08+08:00 ] 127.0.0.1 /yuwans/admin.php?m=admin&c=Slider&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yw_admin` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `yw_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yw_admin_role_priv` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `yw_admin_role_priv` WHERE ( role_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: child E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: seek E:\phpstudy\www\yuwans\Application\Admin\Controller\SliderController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `yw_slider` [ RunTime:0.0430s ]
+SQL: SELECT a.*,b.title as `netbar_title`,d.region_name FROM yw_slider a LEFT JOIN yw_user_netbar b ON a.netbar_id = b.user_id LEFT JOIN yw_user c ON b.user_id = c.id  LEFT JOIN yw_region d ON c.city_id = d.region_id  ORDER BY a.add_time DESC LIMIT 0,20   [ RunTime:0.0250s ]
+SQL: SELECT COUNT(*) AS tp_count FROM yw_slider a LEFT JOIN yw_user_netbar b ON a.netbar_id = b.user_id LEFT JOIN yw_user c ON b.user_id = c.id  LEFT JOIN yw_region d ON c.city_id = d.region_id  ORDER BY a.add_time DESC LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: keyword E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 95 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 121 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 122 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 129 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 130 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 121 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 122 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 129 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 130 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 121 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 122 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 129 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 130 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 121 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 122 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 129 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 130 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 121 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 122 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 129 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 130 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 121 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 122 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 129 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 130 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 121 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 122 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 129 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 130 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 121 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 122 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 129 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 130 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 121 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 122 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 129 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 130 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 121 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 122 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 129 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 130 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 121 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 122 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 129 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 130 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 121 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 122 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 129 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 130 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 121 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 122 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 129 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 130 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 121 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 122 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 129 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 130 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 121 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 122 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 129 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 130 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 121 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 122 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 129 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 130 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 121 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 122 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 129 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 130 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 121 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 122 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 129 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 130 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 121 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 122 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 129 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 130 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 121 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 122 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 129 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\45fbe0f31fd80f8a571f40bbba328389.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-13T12:07:13+08:00 ] 127.0.0.1 /yuwans/admin.php?m=admin&c=Myspace&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\MyspaceController::show() should be compatible with that of Think\Controller::show() E:\phpstudy\www\yuwans\Application\Admin\Controller\MyspaceController.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `yw_admin` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `yw_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yw_admin_role_priv` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `yw_admin_role_priv` WHERE ( role_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: child E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 369 行.
+SQL: SHOW COLUMNS FROM `yw_myspace` [ RunTime:0.0280s ]
+SQL: SELECT COUNT(*) FROM yw_user,yw_myspace WHERE yw_myspace.user_id = yw_user.id [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) FROM yw_user,yw_myspace WHERE yw_myspace.user_id = yw_user.id [ RunTime:0.0010s ]
+SQL: SELECT yw_user.username,yw_myspace.id,yw_myspace.content,yw_myspace.add_time 
+                FROM yw_user,yw_myspace WHERE yw_myspace.user_id = yw_user.id limit 0,20 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-13T12:07:22+08:00 ] 127.0.0.1 /yuwans/admin.php?m=admin&c=Community&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yw_admin` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `yw_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yw_admin_role_priv` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `yw_admin_role_priv` WHERE ( role_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: child E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 369 行.
+NOTIC: [8] Undefined index: child E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 348 行.
+NOTIC: [8] Undefined index: suffix E:\phpstudy\www\yuwans\Application\Admin\Controller\BaseController.class.php 第 369 行.
+SQL: SHOW COLUMNS FROM `yw_community` [ RunTime:0.0280s ]
+NOTIC: [8] Undefined index: seek E:\phpstudy\www\yuwans\Application\Admin\Controller\CommunityController.class.php 第 27 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `yw_community` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: p E:\phpstudy\www\yuwans\Application\Admin\Controller\CommunityController.class.php 第 31 行.
+SQL: SELECT * FROM `yw_community` ORDER BY  add_time desc  LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yw_user` [ RunTime:0.0060s ]
+SQL: SELECT `real_name` FROM `yw_user` WHERE ( 1=1 AND id='252' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `real_name` FROM `yw_user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `real_name` FROM `yw_user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `real_name` FROM `yw_user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `real_name` FROM `yw_user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `real_name` FROM `yw_user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `real_name` FROM `yw_user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `real_name` FROM `yw_user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `real_name` FROM `yw_user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `real_name` FROM `yw_user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `real_name` FROM `yw_user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `real_name` FROM `yw_user` WHERE ( 1=1 AND id='200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `real_name` FROM `yw_user` WHERE ( 1=1 AND id='252' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `real_name` FROM `yw_user` WHERE ( 1=1 AND id='252' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `real_name` FROM `yw_user` WHERE ( 1=1 AND id='200' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `real_name` FROM `yw_user` WHERE ( 1=1 AND id='200' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `real_name` FROM `yw_user` WHERE ( 1=1 AND id='200' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `real_name` FROM `yw_user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `real_name` FROM `yw_user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `real_name` FROM `yw_user` WHERE ( 1=1 AND id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yw_games` [ RunTime:0.0080s ]
+SQL: SELECT `title` FROM `yw_games` WHERE `id` IN ('5','6','7')  [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `yw_games` WHERE `id` IN ('7','9')  [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `yw_games` WHERE `id` IN ('7','9')  [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `yw_games` WHERE `id` IN ('5','9')  [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `yw_games` WHERE `id` IN ('9')  [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `yw_games` WHERE `id` IN ('10')  [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `yw_games` WHERE `id` IN ('8')  [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `yw_games` WHERE `id` IN ('9')  [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `yw_games` WHERE `id` IN ('1','2')  [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `yw_games` WHERE `id` IN ('9')  [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `yw_games` WHERE `id` IN ('9','10')  [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `yw_games` WHERE `id` IN ('10')  [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `yw_games` WHERE `id` IN ('12')  [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `yw_games` WHERE `id` IN ('5')  [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `yw_games` WHERE `id` IN ('6')  [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `yw_games` WHERE `id` IN ('9')  [ RunTime:0.0010s ]
+SQL: SELECT `title` FROM `yw_games` WHERE `id` IN ('7','9')  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: keyword E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 95 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 116 行.
+NOTIC: [8] Use of undefined constant real_name - assumed 'real_name' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 116 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 118 行.
+NOTIC: [8] Use of undefined constant add_time - assumed 'add_time' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 122 行.
+NOTIC: [8] Use of undefined constant users - assumed 'users' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 124 行.
+NOTIC: [8] Use of undefined constant comments - assumed 'comments' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 126 行.
+NOTIC: [8] Use of undefined constant posts - assumed 'posts' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 132 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 116 行.
+NOTIC: [8] Use of undefined constant real_name - assumed 'real_name' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 116 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 118 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 120 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 120 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 120 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 120 行.
+NOTIC: [8] Use of undefined constant add_time - assumed 'add_time' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 122 行.
+NOTIC: [8] Use of undefined constant users - assumed 'users' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 124 行.
+NOTIC: [8] Use of undefined constant comments - assumed 'comments' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 126 行.
+NOTIC: [8] Use of undefined constant posts - assumed 'posts' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 132 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 116 行.
+NOTIC: [8] Use of undefined constant real_name - assumed 'real_name' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 116 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 118 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 120 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 120 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 120 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 120 行.
+NOTIC: [8] Use of undefined constant add_time - assumed 'add_time' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 122 行.
+NOTIC: [8] Use of undefined constant users - assumed 'users' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 124 行.
+NOTIC: [8] Use of undefined constant comments - assumed 'comments' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 126 行.
+NOTIC: [8] Use of undefined constant posts - assumed 'posts' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 132 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 116 行.
+NOTIC: [8] Use of undefined constant real_name - assumed 'real_name' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 116 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 118 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 120 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 120 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 120 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 120 行.
+NOTIC: [8] Use of undefined constant add_time - assumed 'add_time' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 122 行.
+NOTIC: [8] Use of undefined constant users - assumed 'users' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 124 行.
+NOTIC: [8] Use of undefined constant comments - assumed 'comments' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 126 行.
+NOTIC: [8] Use of undefined constant posts - assumed 'posts' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 132 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 116 行.
+NOTIC: [8] Use of undefined constant real_name - assumed 'real_name' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 116 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 118 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 120 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 120 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 120 行.
+NOTIC: [8] Use of undefined constant add_time - assumed 'add_time' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 122 行.
+NOTIC: [8] Use of undefined constant users - assumed 'users' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 124 行.
+NOTIC: [8] Use of undefined constant comments - assumed 'comments' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 126 行.
+NOTIC: [8] Use of undefined constant posts - assumed 'posts' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 132 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 116 行.
+NOTIC: [8] Use of undefined constant real_name - assumed 'real_name' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 116 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 118 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 120 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 120 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 120 行.
+NOTIC: [8] Use of undefined constant add_time - assumed 'add_time' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 122 行.
+NOTIC: [8] Use of undefined constant users - assumed 'users' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 124 行.
+NOTIC: [8] Use of undefined constant comments - assumed 'comments' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 126 行.
+NOTIC: [8] Use of undefined constant posts - assumed 'posts' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 132 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 116 行.
+NOTIC: [8] Use of undefined constant real_name - assumed 'real_name' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 116 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 118 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 120 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 120 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 120 行.
+NOTIC: [8] Use of undefined constant add_time - assumed 'add_time' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 122 行.
+NOTIC: [8] Use of undefined constant users - assumed 'users' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 124 行.
+NOTIC: [8] Use of undefined constant comments - assumed 'comments' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 126 行.
+NOTIC: [8] Use of undefined constant posts - assumed 'posts' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 132 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 116 行.
+NOTIC: [8] Use of undefined constant real_name - assumed 'real_name' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 116 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 118 行.
+NOTIC: [8] Use of undefined constant add_time - assumed 'add_time' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 122 行.
+NOTIC: [8] Use of undefined constant users - assumed 'users' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 124 行.
+NOTIC: [8] Use of undefined constant comments - assumed 'comments' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 126 行.
+NOTIC: [8] Use of undefined constant posts - assumed 'posts' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 132 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 116 行.
+NOTIC: [8] Use of undefined constant real_name - assumed 'real_name' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 116 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 118 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 120 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 120 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 120 行.
+NOTIC: [8] Use of undefined constant add_time - assumed 'add_time' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 122 行.
+NOTIC: [8] Use of undefined constant users - assumed 'users' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 124 行.
+NOTIC: [8] Use of undefined constant comments - assumed 'comments' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 126 行.
+NOTIC: [8] Use of undefined constant posts - assumed 'posts' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 132 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 116 行.
+NOTIC: [8] Use of undefined constant real_name - assumed 'real_name' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 116 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 118 行.
+NOTIC: [8] Use of undefined constant add_time - assumed 'add_time' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 122 行.
+NOTIC: [8] Use of undefined constant users - assumed 'users' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 124 行.
+NOTIC: [8] Use of undefined constant comments - assumed 'comments' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 126 行.
+NOTIC: [8] Use of undefined constant posts - assumed 'posts' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 132 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 116 行.
+NOTIC: [8] Use of undefined constant real_name - assumed 'real_name' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 116 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 118 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 120 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 120 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 120 行.
+NOTIC: [8] Use of undefined constant add_time - assumed 'add_time' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 122 行.
+NOTIC: [8] Use of undefined constant users - assumed 'users' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 124 行.
+NOTIC: [8] Use of undefined constant comments - assumed 'comments' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 126 行.
+NOTIC: [8] Use of undefined constant posts - assumed 'posts' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 132 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 116 行.
+NOTIC: [8] Use of undefined constant real_name - assumed 'real_name' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 116 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 118 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 120 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 120 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 120 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 120 行.
+NOTIC: [8] Use of undefined constant add_time - assumed 'add_time' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 122 行.
+NOTIC: [8] Use of undefined constant users - assumed 'users' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 124 行.
+NOTIC: [8] Use of undefined constant comments - assumed 'comments' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 126 行.
+NOTIC: [8] Use of undefined constant posts - assumed 'posts' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 132 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 116 行.
+NOTIC: [8] Use of undefined constant real_name - assumed 'real_name' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 116 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 118 行.
+NOTIC: [8] Use of undefined constant add_time - assumed 'add_time' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 122 行.
+NOTIC: [8] Use of undefined constant users - assumed 'users' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 124 行.
+NOTIC: [8] Use of undefined constant comments - assumed 'comments' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 126 行.
+NOTIC: [8] Use of undefined constant posts - assumed 'posts' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 132 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 116 行.
+NOTIC: [8] Use of undefined constant real_name - assumed 'real_name' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 116 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 118 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 120 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 120 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 120 行.
+NOTIC: [8] Use of undefined constant add_time - assumed 'add_time' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 122 行.
+NOTIC: [8] Use of undefined constant users - assumed 'users' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 124 行.
+NOTIC: [8] Use of undefined constant comments - assumed 'comments' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 126 行.
+NOTIC: [8] Use of undefined constant posts - assumed 'posts' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 132 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 116 行.
+NOTIC: [8] Use of undefined constant real_name - assumed 'real_name' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 116 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 118 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 120 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 120 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 120 行.
+NOTIC: [8] Use of undefined constant add_time - assumed 'add_time' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 122 行.
+NOTIC: [8] Use of undefined constant users - assumed 'users' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 124 行.
+NOTIC: [8] Use of undefined constant comments - assumed 'comments' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 126 行.
+NOTIC: [8] Use of undefined constant posts - assumed 'posts' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 132 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 116 行.
+NOTIC: [8] Use of undefined constant real_name - assumed 'real_name' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 116 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 118 行.
+NOTIC: [8] Use of undefined constant add_time - assumed 'add_time' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 122 行.
+NOTIC: [8] Use of undefined constant users - assumed 'users' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 124 行.
+NOTIC: [8] Use of undefined constant comments - assumed 'comments' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 126 行.
+NOTIC: [8] Use of undefined constant posts - assumed 'posts' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 132 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 116 行.
+NOTIC: [8] Use of undefined constant real_name - assumed 'real_name' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 116 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 118 行.
+NOTIC: [8] Use of undefined constant add_time - assumed 'add_time' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 122 行.
+NOTIC: [8] Use of undefined constant users - assumed 'users' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 124 行.
+NOTIC: [8] Use of undefined constant comments - assumed 'comments' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 126 行.
+NOTIC: [8] Use of undefined constant posts - assumed 'posts' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 132 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 116 行.
+NOTIC: [8] Use of undefined constant real_name - assumed 'real_name' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 116 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 118 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 120 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 120 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 120 行.
+NOTIC: [8] Use of undefined constant add_time - assumed 'add_time' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 122 行.
+NOTIC: [8] Use of undefined constant users - assumed 'users' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 124 行.
+NOTIC: [8] Use of undefined constant comments - assumed 'comments' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 126 行.
+NOTIC: [8] Use of undefined constant posts - assumed 'posts' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 132 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 116 行.
+NOTIC: [8] Use of undefined constant real_name - assumed 'real_name' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 116 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 118 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 120 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 120 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 120 行.
+NOTIC: [8] Use of undefined constant add_time - assumed 'add_time' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 122 行.
+NOTIC: [8] Use of undefined constant users - assumed 'users' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 124 行.
+NOTIC: [8] Use of undefined constant comments - assumed 'comments' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 126 行.
+NOTIC: [8] Use of undefined constant posts - assumed 'posts' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 132 行.
+NOTIC: [8] Use of undefined constant user - assumed 'user' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 116 行.
+NOTIC: [8] Use of undefined constant real_name - assumed 'real_name' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 116 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 118 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 120 行.
+NOTIC: [8] Use of undefined constant games - assumed 'games' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 120 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 120 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 120 行.
+NOTIC: [8] Use of undefined constant add_time - assumed 'add_time' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 122 行.
+NOTIC: [8] Use of undefined constant users - assumed 'users' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 124 行.
+NOTIC: [8] Use of undefined constant comments - assumed 'comments' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 126 行.
+NOTIC: [8] Use of undefined constant posts - assumed 'posts' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 128 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 131 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpstudy\www\yuwans\Application\Runtime\Cache\Admin\fdba1bab115dbb1c0efefbfd48bf83e1.php 第 132 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

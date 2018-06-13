@@ -1,0 +1,137 @@
+<include file="Public:header"/>
+{$page = 'permission'}
+<include file="Public:menu"/>
+<style type="text/css">
+    .error{
+        color: red;
+    }
+    
+</style>
+<div class="content-wrapper">
+    <!--引入表单验证-->
+    <script src="http://static.runoob.com/assets/jquery-validation-1.14.0/dist/jquery.validate.min.js"></script>
+    <include file="Public:breadcrumb"/>
+    <!-- 主体内容 -->
+    <section class="content">
+
+        <div class="row">
+
+            <!-- left column -->
+            <div class="col-md-8">
+                <!-- general form elements -->
+                <div class="box box-primary">
+                    <!-- form start -->
+                    <form role="form" action="{:U('Role/inser')}" method="post" id="Myform">
+
+                        <div class="box-body padding20">
+                            <div class="form-group ">
+                                <!-- has-error-->
+                                <label for="">用户名<span class="required">*</span></label>
+                                <div>
+                                    <input type="text" name="user" placeholder="输入用户名称" id="" class="form-control wp50 inline-block">
+                                    <!--<label class="control-label" for="inputError"><i class="fa fa-times-circle-o"></i> 用户名不能为空</label>-->
+                                </div>
+
+                            </div>
+
+                            <div class="form-group">
+                                <label for="">密码<span class="required">*</span></label>
+                                <div>
+                                    <input type="password" name="paw"  placeholder="输入密码" id="paw" class="form-control wp50" >
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="">确认密码<span class="required">*</span></label>
+                                <input type="password"  name="paw1" placeholder="输入确认密码"  class="form-control wp50" >
+                            </div>
+                            <!--
+                            <div class="form-group">
+                                <label for="">电话</label>
+                                <input type="text" placeholder="输入电话" name="phone" class="form-control wp50" >
+                            </div>
+                            -->
+                            <div class="form-group">
+                                <label for="">真实姓名<span class="required">*</span></label>
+                                <input type="text" placeholder="输入姓名" name="name" class="form-control wp50" >
+                            </div>
+
+                            <div class="form-group">
+                                <label for="">所属角色</label>
+                                <select class="form-control wp50" name="role"  title="Please select something!" required>
+                                    <?php foreach($data as $val) :?>
+                                    <option value="<?php echo $val['id']?>"><?php echo $val['name']?></option>
+                                    <?php  endforeach;?>
+                                </select>
+                            </div>
+
+                        </div><!-- /.box-body -->
+
+                        <div class="box-footer p20 ">
+                            <button class="btn btn-primary w100" type="submit" id="ok">保存</button>
+                            <a onclick="history.go('-1')" class="btn btn-info w100 ml20" type="submit">返回</a>
+                        </div>
+                    </form>
+                </div><!-- /.box -->
+
+            </div>
+
+        </div>
+
+
+
+    </section><!-- /.content -->
+
+    <!-- /.content  -->
+</div>
+<script type="text/javascript">
+    function deleteData() {
+        if (confirm("确认要删除该条数据？")) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    $('#Myform').validate({
+        rules: {
+            user: {
+                required: true,
+                rangelength:[3,7],
+            },
+            paw:{
+                required: true,
+                rangelength:[5,10],
+            },
+            paw1:{
+                required: true,
+                equalTo:"#paw"
+            },
+            name:{
+                required: true,
+                rangelength:[2,7],
+            }
+        },
+        messages: {
+            user:{
+                required:'用户名不能为空!',
+                rangelength:'用户名在3~7个字符之间',
+            },
+            paw:{
+                required:'密码不能为空',
+                rangelength:'密码的字符应在5~10之间',
+            },
+            paw1:{
+                required: '密码不能为空',
+                equalTo:"两次密码应该相同!",
+            },
+            name:{
+                required:'真实姓名不能为空!',
+                rangelength:'真实姓名个数应该在2~7之间！',
+            }
+        },
+        focusInvalid:true,
+    });
+
+</script>
+<include file="Public:footer"/>

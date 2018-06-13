@@ -1,0 +1,92 @@
+<include file="Public:header"/>
+<include file="Public:menu"/>
+<div class="content-wrapper">
+    <include file="Public:breadcrumb"/>
+
+    <!-- 主体内容 -->
+    <section class="content">
+        <div class="row">
+            <div class="col-md-12 " style="">
+                <div class="box box-solid padding20" style="">
+                    <table class="table table-hover table-noboder">
+                        <tbody>
+                        <tr>
+                            <td width="20%" class="text-right">圈子名称：</td>
+                            <td>{$data.title}</td>
+                        </tr>
+
+                        <tr>
+                            <td width="20%" class="text-right">房主：</td>
+                            <td>{$data[user][real_name]}</td>
+                        </tr>
+
+                        <tr>
+                            <td width="20%" class="text-right">创建时间：</td>
+                            <td>{$data[add_time]}</td>
+                        </tr>
+
+                        <tr>
+                            <td width="20%" class="text-right">游戏：</td>
+                            <td>
+                                <volist name="data[games]" id="vo">
+                                  <span class="label label-default">{$vo[title]}</span>&nbsp;
+                                </volist>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="20%" class="text-right">用户数：</td>
+                            <td>{$data[users]}</td>
+                        </tr>
+
+                        <tr>
+                            <td width="20%" class="text-right">评论数：</td>
+                            <td>{$data[comments]}</td>
+                        </tr>
+
+                        <tr>
+                            <td width="20%" class="text-right">帖子数：</td>
+                            <td>{$data[posts]}</td>
+                        </tr>
+
+                        <tr>
+                            <td width="20%" class="text-right">经度：</td>
+                            <td>
+                                {$data[longitude]}
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="20%" class="text-right">纬度：</td>
+                            <td>
+                                {$data[latitude]}
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="20%" class="text-right">圈子说明：</td>
+                            <td>
+                                {$data[description]}
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td width="20%" class="text-right"></td>
+                            <td>
+                                <a href="{:U('Community/index')}" class="btn btn-info btn-flat">返回游戏桌列表</a>
+                            </td>
+                        </tr>
+
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <!-- /.content  -->
+
+</div>
+<include file="Public:footer"/>

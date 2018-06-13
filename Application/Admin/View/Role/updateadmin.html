@@ -1,0 +1,104 @@
+<include file="Public:header"/>
+{$page = 'permission'}
+<include file="Public:menu"/>
+<style type="text/css">
+    .error{
+        color: red;
+    }
+</style>
+<div class="content-wrapper">
+    <!--引入表单验证-->
+    <script src="http://static.runoob.com/assets/jquery-validation-1.14.0/dist/jquery.validate.min.js"></script>
+    <include file="Public:breadcrumb"/>
+    <!-- 主体内容 -->
+    <!-- 主体内容 -->
+    <section class="content">
+        <div class="row">
+
+            <!-- left column -->
+            <div class="col-md-8">
+                <!-- general form elements -->
+                <div class="box box-solid">
+
+                    <!-- form start -->
+                    <form role="form" id="Myform" action="{:U('Role/updat_per')}" method="post">
+                        <div class="box-body padding20">
+                            <div class="form-group">
+                                <input type="hidden" value="{$data['id']}" name="role_id">
+                                <label for="">角色名称<span class="required">*</span></label>
+                                <div>
+                                    <input type="text" value="{$data['name']}" name="user" placeholder="输入角色名称..." id="" class="form-control wp50 inline-block"  >
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="">状态</label>
+                                <div>
+                                    <div class="radio inline-block margin0">
+                                        <label>
+                                            <?php if($data['enabled'] == 1 ) {
+                                            ?>
+                                            <input type="radio" checked value="1"  name="optionsRadios"/>启用
+                                            <?php
+                                            }else{
+                                            ?>
+                                            <input type="radio" value="1"  name="optionsRadios"/>启用
+                                            <?php
+                                            }
+                                            ?>
+                                        </label>
+                                    </div>
+                                    <div class="radio inline-block margin0">
+                                        <label>
+                                            <?php if($data['enabled'] == 0 ) {
+                                            ?>
+                                                <input type="radio" checked value="0"  name="optionsRadios"/>禁用
+                                            <?php
+                                            }else{
+                                            ?>
+                                                <input type="radio" value="0"  name="optionsRadios"/>禁用
+                                            <?php
+                                            }
+                                            ?>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="">角色描述</label>
+                                <textarea name="content" placeholder="输入角色描述..."  class="form-control"><?php echo $data['description'] ?></textarea>
+                            </div>
+
+
+                        </div><!-- /.box-body -->
+
+                        <div class="box-footer p20 ">
+                            <button class="btn btn-primary w100" type="submit">保存</button>
+                            <a onclick="history.go('-1')" class="btn btn-info w100 ml20" type="submit">返回</a>
+                        </div>
+                    </form>
+                </div><!-- /.box -->
+            </div>
+        </div>
+    </section><!-- /.content -->
+    <!-- /.content  -->
+</div>
+<script type="text/javascript">
+    $('#Myform').validate({
+        rules: {
+            user: {
+                required: true,
+                rangelength:[3,7],
+            },
+        },
+        messages: {
+            user:{
+                required:'角色不能为空!',
+                rangelength:'角色在3~7个字符之间',
+            },
+        },
+        focusInvalid:true,
+    });
+</script>
+<include file="Public:footer"/>

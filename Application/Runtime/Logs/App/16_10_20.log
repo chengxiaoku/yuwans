@@ -1,0 +1,728 @@
+[ 2016-10-20T10:21:19+08:00 ] 127.0.0.1 /yuwan/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-20T15:39:31+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T15:39:31+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T15:39:52+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T15:39:52+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:08:17+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:08:17+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:08:51+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:08:51+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:09:05+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:09:05+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:09:23+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:09:24+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:10:09+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:10:09+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:10:31+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:10:31+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:10:42+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:10:42+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:10:53+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:10:53+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:11:25+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:11:25+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:12:16+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:12:16+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:12:46+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:12:46+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:12:53+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:12:53+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:13:14+08:00 ] 127.0.0.1 /yuwan/h
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载控制器:H
+
+[ 2016-10-20T16:13:14+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:13:14+08:00 ] 127.0.0.1 /yuwan/h
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:H
+
+[ 2016-10-20T16:13:14+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:13:26+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:13:27+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:13:51+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:13:51+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:17:46+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:17:46+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:17:53+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:17:54+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:18:09+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:18:09+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:18:24+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:18:24+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:18:34+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:18:35+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:18:48+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:18:48+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:19:15+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:19:15+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:19:26+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:19:27+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:19:57+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:19:57+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:20:03+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:20:03+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:21:03+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:21:03+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:21:07+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:21:08+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:23:25+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:23:25+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:23:38+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:23:38+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:23:56+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:23:56+08:00 ] 127.0.0.1 /yuwan/Public/assets/plugins/jquery.cityselect.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-10-20T16:28:15+08:00 ] 127.0.0.1 /yuwan/h
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:H
+
+[ 2016-10-20T16:28:15+08:00 ] 127.0.0.1 /yuwan/h
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:H
+
+[ 2016-10-20T23:50:41+08:00 ] 127.0.0.1 /yuwan/index.php?c=api&a=getADList&pageNo=1&pageSize=10&city=%E6%B4%9B%E9%98%B3%E5%B8%82
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `yw_slider` [ RunTime:0.0020s ]
+ERR: 1054:Unknown column 'a.title' in 'field list'
+ [ SQL语句 ] : SELECT a.title,a.content as `description`,a.images,a.add_time as `addTime`,a.game_id,a.war_id as `gameDeskId`,c.id as `netbarId`,c.title as `netbarName`,b.address as `netbarAddress`,e.title as `gameName` FROM yw_slider t1 LEFT JOIN yw_user b ON a.netbar_id = b.id LEFT JOIN yw_user_netbar c ON b.id = c.user_id LEFT JOIN yw_region d ON b.region_id = d.region_id LEFT JOIN yw_war e ON a.war_id = e.id  WHERE ( a.type = 'act' AND b.user_type = 'netbar' AND d.region_name LIKE '%洛阳市%' ) LIMIT 0,10  
+ERR: 1054:Unknown column 'a.title' in 'field list'
+ [ SQL语句 ] : SELECT a.title,a.content as `description`,a.images,a.add_time as `addTime`,a.game_id,a.war_id as `gameDeskId`,c.id as `netbarId`,c.title as `netbarName`,b.address as `netbarAddress`,e.title as `gameName` FROM yw_slider t1 LEFT JOIN yw_user b ON a.netbar_id = b.id LEFT JOIN yw_user_netbar c ON b.id = c.user_id LEFT JOIN yw_region d ON b.region_id = d.region_id LEFT JOIN yw_war e ON a.war_id = e.id  WHERE ( a.type = 'act' AND b.user_type = 'netbar' AND d.region_name LIKE '%洛阳市%' ) LIMIT 0,10  
+
+[ 2016-10-20T23:51:21+08:00 ] 127.0.0.1 /yuwan/index.php?c=api&a=getADList&pageNo=1&pageSize=10&city=%E6%B4%9B%E9%98%B3%E5%B8%82
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yw_slider` [ RunTime:0.0020s ]
+SQL: SELECT a.title,a.content as `description`,a.images,a.add_time as `addTime`,a.game_id,a.war_id as `gameDeskId`,c.id as `netbarId`,c.title as `netbarName`,b.address as `netbarAddress`,e.title as `gameName` FROM yw_slider a LEFT JOIN yw_user b ON a.netbar_id = b.id LEFT JOIN yw_user_netbar c ON b.id = c.user_id LEFT JOIN yw_region d ON b.region_id = d.region_id LEFT JOIN yw_war e ON a.war_id = e.id  WHERE ( a.type = 'act' AND b.user_type = 'netbar' AND d.region_name LIKE '%洛阳市%' ) LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2016-10-20T23:52:00+08:00 ] 127.0.0.1 /yuwan/index.php?c=api&a=getADList&pageNo=1&pageSize=10&city=%E6%B4%9B%E9%98%B3%E5%B8%82
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yw_slider` [ RunTime:0.0020s ]
+SQL: SELECT a.title,a.content as `description`,a.images,a.add_time as `addTime`,a.game_id,a.war_id as `gameDeskId`,c.id as `netbarId`,c.title as `netbarName`,b.address as `netbarAddress`,e.title as `gameName` FROM yw_slider a LEFT JOIN yw_user b ON a.netbar_id = b.id LEFT JOIN yw_user_netbar c ON b.id = c.user_id LEFT JOIN yw_region d ON b.region_id = d.region_id LEFT JOIN yw_war e ON a.war_id = e.id  WHERE ( a.type = 'act' AND b.user_type = 'netbar' AND d.region_name LIKE '%洛阳市%' ) LIMIT 0,10   [ RunTime:0.0020s ]
+
+[ 2016-10-20T23:53:10+08:00 ] 127.0.0.1 /yuwan/index.php?c=api&a=getADList&pageNo=1&pageSize=10&city=%E6%B4%9B%E9%98%B3%E5%B8%82
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yw_slider` [ RunTime:0.0020s ]
+SQL: SELECT a.title,a.content as `description`,a.images,a.add_time as `addTime`,a.game_id,a.war_id as `gameDeskId`,c.id as `netbarId`,c.title as `netbarName`,b.address as `netbarAddress`,e.title as `gameName` FROM yw_slider a LEFT JOIN yw_user b ON a.netbar_id = b.id LEFT JOIN yw_user_netbar c ON b.id = c.user_id LEFT JOIN yw_region d ON b.region_id = d.region_id LEFT JOIN yw_war e ON a.war_id = e.id  WHERE ( a.type = 'act' AND b.user_type = 'netbar' AND d.region_name LIKE '%洛阳市%' ) LIMIT 0,10   [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: add_time E:\wamp\www\yuwan\Application\App\Controller\ApiController.class.php 第 2915 行.
+NOTIC: [8] Undefined index: gameDeskId E:\wamp\www\yuwan\Application\App\Controller\ApiController.class.php 第 2916 行.
+NOTIC: [8] Undefined index: gameName E:\wamp\www\yuwan\Application\App\Controller\ApiController.class.php 第 2917 行.
+NOTIC: [8] Undefined index: netbarAddress E:\wamp\www\yuwan\Application\App\Controller\ApiController.class.php 第 2918 行.
+NOTIC: [8] Undefined index: netbarName E:\wamp\www\yuwan\Application\App\Controller\ApiController.class.php 第 2919 行.
+NOTIC: [8] Undefined index: netbarId E:\wamp\www\yuwan\Application\App\Controller\ApiController.class.php 第 2920 行.
+NOTIC: [8] Undefined index: add_time E:\wamp\www\yuwan\Application\App\Controller\ApiController.class.php 第 2915 行.
+NOTIC: [8] Undefined index: gameDeskId E:\wamp\www\yuwan\Application\App\Controller\ApiController.class.php 第 2916 行.
+NOTIC: [8] Undefined index: gameName E:\wamp\www\yuwan\Application\App\Controller\ApiController.class.php 第 2917 行.
+NOTIC: [8] Undefined index: netbarAddress E:\wamp\www\yuwan\Application\App\Controller\ApiController.class.php 第 2918 行.
+NOTIC: [8] Undefined index: netbarName E:\wamp\www\yuwan\Application\App\Controller\ApiController.class.php 第 2919 行.
+NOTIC: [8] Undefined index: netbarId E:\wamp\www\yuwan\Application\App\Controller\ApiController.class.php 第 2920 行.
+
+[ 2016-10-20T23:55:26+08:00 ] 127.0.0.1 /yuwan/index.php?c=api&a=getADList&pageNo=1&pageSize=10&city=%E6%B4%9B%E9%98%B3%E5%B8%82
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yw_slider` [ RunTime:0.0020s ]
+SQL: SELECT a.title,a.content as `description`,a.images,a.add_time as `addTime`,a.game_id,a.war_id as `gameDeskId`,c.id as `netbarId`,c.title as `netbarName`,b.address as `netbarAddress`,e.title as `gameName` FROM yw_slider a LEFT JOIN yw_user b ON a.netbar_id = b.id LEFT JOIN yw_user_netbar c ON b.id = c.user_id LEFT JOIN yw_region d ON b.region_id = d.region_id LEFT JOIN yw_war e ON a.war_id = e.id  WHERE ( a.type = 'act' AND b.user_type = 'netbar' AND d.region_name LIKE '%洛阳市%' ) LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: add_time E:\wamp\www\yuwan\Application\App\Controller\ApiController.class.php 第 2915 行.
+NOTIC: [8] Undefined index: gameDeskId E:\wamp\www\yuwan\Application\App\Controller\ApiController.class.php 第 2916 行.
+NOTIC: [8] Undefined index: gameName E:\wamp\www\yuwan\Application\App\Controller\ApiController.class.php 第 2917 行.
+NOTIC: [8] Undefined index: netbarAddress E:\wamp\www\yuwan\Application\App\Controller\ApiController.class.php 第 2918 行.
+NOTIC: [8] Undefined index: netbarName E:\wamp\www\yuwan\Application\App\Controller\ApiController.class.php 第 2919 行.
+NOTIC: [8] Undefined index: netbarId E:\wamp\www\yuwan\Application\App\Controller\ApiController.class.php 第 2920 行.
+NOTIC: [8] Undefined index: add_time E:\wamp\www\yuwan\Application\App\Controller\ApiController.class.php 第 2915 行.
+NOTIC: [8] Undefined index: gameDeskId E:\wamp\www\yuwan\Application\App\Controller\ApiController.class.php 第 2916 行.
+NOTIC: [8] Undefined index: gameName E:\wamp\www\yuwan\Application\App\Controller\ApiController.class.php 第 2917 行.
+NOTIC: [8] Undefined index: netbarAddress E:\wamp\www\yuwan\Application\App\Controller\ApiController.class.php 第 2918 行.
+NOTIC: [8] Undefined index: netbarName E:\wamp\www\yuwan\Application\App\Controller\ApiController.class.php 第 2919 行.
+NOTIC: [8] Undefined index: netbarId E:\wamp\www\yuwan\Application\App\Controller\ApiController.class.php 第 2920 行.
+
+[ 2016-10-20T23:56:57+08:00 ] 127.0.0.1 /yuwan/index.php?c=api&a=getADList&pageNo=1&pageSize=10&city=%E6%B4%9B%E9%98%B3%E5%B8%82
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yw_slider` [ RunTime:0.0030s ]
+SQL: SELECT a.title,a.content as `description`,a.images,a.add_time as `addTime`,a.game_id,a.war_id as `gameDeskId`,c.id as `netbarId`,c.title as `netbarName`,b.address as `netbarAddress`,e.title as `gameName` FROM yw_slider a LEFT JOIN yw_user b ON a.netbar_id = b.id LEFT JOIN yw_user_netbar c ON b.id = c.user_id LEFT JOIN yw_region d ON b.region_id = d.region_id LEFT JOIN yw_war e ON a.war_id = e.id  WHERE ( a.type = 'act' AND b.user_type = 'netbar' AND d.region_name LIKE '%洛阳市%' ) LIMIT 0,10   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: add_time E:\wamp\www\yuwan\Application\App\Controller\ApiController.class.php 第 2915 行.
+NOTIC: [8] Undefined index: gameDeskId E:\wamp\www\yuwan\Application\App\Controller\ApiController.class.php 第 2916 行.
+NOTIC: [8] Undefined index: gameName E:\wamp\www\yuwan\Application\App\Controller\ApiController.class.php 第 2917 行.
+NOTIC: [8] Undefined index: netbarAddress E:\wamp\www\yuwan\Application\App\Controller\ApiController.class.php 第 2918 行.
+NOTIC: [8] Undefined index: netbarName E:\wamp\www\yuwan\Application\App\Controller\ApiController.class.php 第 2919 行.
+NOTIC: [8] Undefined index: netbarId E:\wamp\www\yuwan\Application\App\Controller\ApiController.class.php 第 2920 行.
+NOTIC: [8] Undefined index: add_time E:\wamp\www\yuwan\Application\App\Controller\ApiController.class.php 第 2915 行.
+NOTIC: [8] Undefined index: gameDeskId E:\wamp\www\yuwan\Application\App\Controller\ApiController.class.php 第 2916 行.
+NOTIC: [8] Undefined index: gameName E:\wamp\www\yuwan\Application\App\Controller\ApiController.class.php 第 2917 行.
+NOTIC: [8] Undefined index: netbarAddress E:\wamp\www\yuwan\Application\App\Controller\ApiController.class.php 第 2918 行.
+NOTIC: [8] Undefined index: netbarName E:\wamp\www\yuwan\Application\App\Controller\ApiController.class.php 第 2919 行.
+NOTIC: [8] Undefined index: netbarId E:\wamp\www\yuwan\Application\App\Controller\ApiController.class.php 第 2920 行.
+

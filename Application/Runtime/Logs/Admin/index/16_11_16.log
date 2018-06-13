@@ -1,0 +1,9 @@
+[ 2016-11-16T11:44:44+08:00 ] 127.0.0.1 /yuwan/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001986s ]
+ERR: 无法加载控制器:Index
+

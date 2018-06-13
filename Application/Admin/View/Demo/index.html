@@ -1,0 +1,218 @@
+<include file="Public:header"/>
+{$page = 'demo'}
+<include file="Public:menu"/>
+<div class="content-wrapper">
+    <include file="Public:breadcrumb"/>
+
+    <!-- 主体内容 -->
+    <section class="content">
+
+        <div class="row">
+            <div class="col-md-8">
+                <div class="box box-primary">
+                    <!-- form start -->
+                    <form role="form">
+                        <div class="box-body padding20">
+                            <div class="form-group has-error">
+                                <label for="">设置字段A<span class="required">*</span></label>
+                                <div>
+                                    <input type="text" class="form-control wp50 inline-block" id="" placeholder="输入设置字段A">
+                                    <label for="inputError" class="control-label"><i class="fa fa-times-circle-o"></i> 设置字段A</label>
+                                </div>
+                            </div>
+                            <div class="form-group has-success">
+                                <label for="">设置字段B</label>
+                                <div>
+                                    <input type="text" placeholder="输入 ..." id="inputSuccess" class="form-control wp50 inline-block">
+                                    <label for="inputSuccess" class="control-label"><i class="fa fa-check"></i> 验证成功提示</label>
+                                </div>
+                            </div>
+                            <div class="form-group has-warning">
+                                <label for="">警告信息</label>
+                                <div>
+                                    <input type="text" placeholder="输入 ..." id="inputWarning" class="form-control wp50 inline-block">
+                                    <label for="inputWarning" class="control-label"><i class="fa fa-bell-o"></i> 警告提示信息</label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="">设置字段B<span class="required">*</span></label>
+                                <input type="text" class="form-control wp50" id="" placeholder="输入设置字段B">
+                            </div>
+                            <div class="form-group">
+                                <label>字段失效</label>
+                                <input type="text" class="form-control wp50" disabled="" value="[大首][首页][底部]980*90">
+                            </div>
+                            <div class="form-group input-group wp50">
+                                <label for="">日期字段</label>
+                                <div>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" id="begin-time" placeholder="">
+                                        <div class="input-group-btn">
+                                            <button class="btn btn-success btn-flat" type="button" onclick="return selectDate(this, 'begin-time')"><i class="fa fa-clock-o"></i></button>
+                                        </div>
+                                    </div>
+                                    <!-- <em class="help-block"></em> -->
+                                </div>
+                            </div>
+                            <div class="form-group input-group wp50">
+                                <label for="">上传图片字段</label>
+                                <div>
+                                    <div class="input-group">
+                                        <input type="text" placeholder="上传缩略图 ..." class="form-control">
+                                        <div class="input-group-btn">
+                                            <button onclick="upload()" type="button" class="btn btn-success btn-flat"><i class="fa fw fa-plus-circle"></i></button>
+                                        </div>
+                                    </div>
+                                    <em class="help-block"></em>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label>多选框</label>
+                                <div>
+                                    <div class="checkbox inline-block mt0">
+                                        <label>
+                                            <input type="checkbox">选项A
+                                        </label>
+                                    </div>
+                                    <div class="checkbox inline-block mt0 ml20">
+                                        <label>
+                                            <input type="checkbox">选项B
+                                        </label>
+                                    </div>
+                                    <div class="checkbox inline-block mt0 ml20">
+                                        <label>
+                                            <input type="checkbox">选项C
+                                        </label>
+                                    </div>
+                                    <div class="checkbox inline-block mt0 ml20">
+                                        <label>
+                                            <input type="checkbox">选项D
+                                        </label>
+                                    </div>
+                                </div>
+                                <em class="help-block">说明：备注内容</em>
+                            </div>
+                            <div class="form-group">
+                                <label for="">单选框</label>
+                                <div>
+                                    <div class="radio inline-block mt0">
+                                        <label>
+                                            <input type="radio" name="optionsRadios" id="" value="option1" checked="">选项A
+                                        </label>
+                                    </div>
+                                    <div class="radio inline-block mt0 ml20">
+                                        <label>
+                                            <input type="radio" name="optionsRadios" id="" value="option2">选项B
+                                        </label>
+                                    </div>
+                                    <div class="radio inline-block mt0 ml20">
+                                        <label>
+                                            <input type="radio" name="optionsRadios" id="" value="option3">选项C
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="">下拉框</label>
+                                <select class="form-control wp50">
+                                    <option value="0">≡ 请选择内容 ≡</option>
+                                    <option value="40">选项A</option>
+                                    <option value="42">选项B</option>
+                                    <option value="44">选项C</option>
+                                    <option value="45">选项D</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="">带有图标</label>
+                                <div class="input-group wp50">
+                                    <input type="text" class="form-control">
+                                    <span class="input-group-addon"><i class="fa fa-check"></i></span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="">带有图标</label>
+                                <div class="input-group wp50">
+                                    <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                                    <input type="email" placeholder="" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.box-body -->
+                        <div class="box-footer p20 ">
+                            <button type="submit" class="btn btn-primary w100">保存</button>
+                            <a type="submit" class="btn btn-info w100 ml20" onclick="history.go('-1')">返回</a>
+                        </div>
+                    </form>
+                </div><!--end box-->
+
+                <div class="box box-solid">
+                    <div class="box-header">
+                        <i class="fa fa-text-width"></i>
+                        <h3 class="box-title">这里是标题 - 表格</h3>
+                        <div class="select pull-right">
+                            <div class="input-group" style="width:250px; margin-left: 5px;">
+                                <input type="text" name="" class="form-control  " style="" placeholder="">
+                                <div class="input-group-btn">
+                                    <button class="btn btn-default"><i class="fa fa-search"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-body">
+                        <table class="table table-hover">
+                            <tbody>
+                            <tr>
+                                <th width="10%" class="tc">行号</th>
+                                <th width="50%">标题</th>
+                                <th width="30%" style="text-align:center;">管理操作</th>
+                            </tr>
+                            <tr>
+                                <td class="tc">1</td>
+                                <td><a href="#">当我们关注戛纳的时候</a></td>
+                                <td style="text-align:center;">
+                                    <a href="#" class="btn btn-default btn-xs">删除</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tc">1</td>
+                                <td><a href="#">当我们关注戛纳的时候</a></td>
+                                <td style="text-align:center;">
+                                    <a href="#" class="btn btn-default btn-xs">删除</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tc">2</td>
+                                <td><a href="#">当我们关注戛纳的时候</a></td>
+                                <td style="text-align:center;">
+                                    <a href="#" class="btn btn-default btn-xs">删除</a>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <div class="text-right">
+                            <ul class="pagination">
+                                <li class="paginate_button previous disabled" id="example2_previous"><a href="#" aria-controls="example2" data-dt-idx="0" tabindex="0">上一页</a></li>
+                                <li class="paginate_button active"><a href="#" aria-controls="example2" data-dt-idx="1" tabindex="0">1</a></li>
+                                <li class="paginate_button "><a href="#" aria-controls="example2" data-dt-idx="2" tabindex="0">2</a></li>
+                                <li class="paginate_button "><a href="#" aria-controls="example2" data-dt-idx="3" tabindex="0">3</a></li>
+                                <li class="paginate_button "><a href="#" aria-controls="example2" data-dt-idx="4" tabindex="0">4</a></li>
+                                <li class="paginate_button "><a href="#" aria-controls="example2" data-dt-idx="5" tabindex="0">5</a></li>
+                                <li class="paginate_button "><a href="#" aria-controls="example2" data-dt-idx="6" tabindex="0">6</a></li>
+                                <li class="paginate_button next" id="example2_next"><a href="#" aria-controls="example2" data-dt-idx="7" tabindex="0">下一页</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="box-footer">
+                        <button type="submit" class="btn btn-primary w100">保存</button>
+                    </div>
+                </div><!-- end box-->
+
+            </div>
+        </div>
+
+
+    </section>
+    <!-- /.content  -->
+
+</div>
+<include file="Public:footer"/>
